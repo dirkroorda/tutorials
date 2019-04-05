@@ -7,5 +7,5 @@
 @source=Good Reads
 @url=https://www.goodreads.com/work/quotes/14366-consider-phlebas
 @writtenBy=Text-Fabric
-@dateWritten=2019-04-04T18:10:44Z
+@dateWritten=2019-04-05T11:55:14Z
 
