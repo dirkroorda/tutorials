@@ -1,17 +1,11 @@
 @node
 @compiler=Dirk Roorda
-@description=1 for words that occur between [ ], which are inserted by the editor
+@description=the author of a book
 @name=Culture quotes from Iain Banks
 @source=Good Reads
 @url=https://www.goodreads.com/work/quotes/14366-consider-phlebas
-@valueType=int
+@valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-04-05T11:55:14Z
+@dateWritten=2019-04-06T18:56:29Z
 
-10	1
-1
-1
-1
-78	1
-1
-1
+100	Iain M. Banks

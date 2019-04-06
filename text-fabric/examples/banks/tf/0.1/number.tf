@@ -6,7 +6,7 @@
 @url=https://www.goodreads.com/work/quotes/14366-consider-phlebas
 @valueType=int
 @writtenBy=Text-Fabric
-@dateWritten=2019-04-05T11:55:14Z
+@dateWritten=2019-04-06T18:56:29Z
 
 101	1
 2

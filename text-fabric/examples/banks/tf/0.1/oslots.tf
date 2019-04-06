@@ -1,11 +1,27 @@
-@node
+@edge
 @compiler=Dirk Roorda
-@description=the author of a book
 @name=Culture quotes from Iain Banks
 @source=Good Reads
 @url=https://www.goodreads.com/work/quotes/14366-consider-phlebas
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-04-05T11:55:14Z
+@dateWritten=2019-04-06T18:56:29Z
 
-100	Iain M. Banks
+100	1-99
+1-55
+56-99
+1-3
+4-6
+7-9,14-20
+21-27
+28-38
+39-51
+52-55
+56
+57-75
+76-77,81-83
+84-88
+89-99
+1-27
+28-55
+56-99
