@@ -2,6 +2,8 @@ import os
 import collections
 from functools import reduce
 
+import yaml
+
 from tf.lib import writeSets
 from tf.applib.helpers import dm
 
@@ -45,9 +47,19 @@ class PosTag(object):
     self.api = A.api
 
     self.sets = collections.defaultdict(set)
-    self.pos = {}
-    self.subpos = {}
+    self.nodeFeatures = dict(
+        pos={},
+        subpos={},
+        cs={},
+        ps={},
+        gn={},
+        nu={},
+    )
     self.done = set()
+
+  def getWoccs(self, data):
+    wordsOccs = self.wordsOccs
+    return sum(len(wordsOccs[x]) for x in data)
 
   def prepare(self):
     api = self.api
@@ -106,11 +118,6 @@ class PosTag(object):
       wordStripped = '-'.join(usable(s) for s in signsNonDet)
       wordsStrippedDet[wordStripped].add(word)
       wordsWithDet[word].add(w)
-    print(f'Words (all)          : {len(wordsOccs):>5}')
-    print(f'Words (nondet)       : {len(wordsWithoutDet):>5}')
-    print(f'Words (det)          : {len(wordsWithDet):>5}')
-    print(f'Words (det, stripped): {len(wordsStrippedDet):>5}')
-    print(f'Words (numeral)      : {len(wordsNumeral):>5}')
     self.wordsOccs = wordsOccs
     self.wordsWithDet = wordsWithDet
     self.wordsWithoutDet = wordsWithoutDet
@@ -120,15 +127,39 @@ class PosTag(object):
     self.wordsUnknown = wordsUnknown
     self.wordFromSigns = wordFromSigns
 
+    md = f'''
+kind of word | distinct forms | number of occurrences
+--- | --- | ---
+all | {len(wordsOccs)} | {getNoccs(wordsOccs)}
+with unknown sign | {len(wordsUnknown)} | {self.getWoccs(wordsUnknown)}
+unknown numeral | {len(wordsNumeralUnknown)} | {self.getWoccs(wordsNumeralUnknown)}
+numeral | {len(wordsNumeral)} | {self.getWoccs(wordsNumeral)}
+without dets | {len(wordsWithoutDet)} | {self.getWoccs(wordsWithoutDet)}
+with det | {len(wordsWithDet)} | {getNoccs(wordsWithDet)}
+with det cut away | {len(wordsStrippedDet)} | {getNoccs(wordsStrippedDet)}
+'''
+    dm(md)
+
+  def initFeatures(self, *feats):
+    return {feat: self.nodeFeatures[feat] for feat in feats}
+
+  def addFeatures(self, theseFeats):
+    nodeFeatures = self.nodeFeatures
+    for (feat, data) in theseFeats.items():
+      for (n, v) in data.items():
+        nodeFeatures[feat][n] = v
+
   def doKnownCases(self, caseStr):
     wordsOccs = self.wordsOccs
 
     cases = getCases(caseStr)
 
-    pos = self.pos
-    subpos = self.subpos
     done = self.done
     sets = self.sets
+
+    theseFeats = self.initFeatures('pos', 'subpos')
+    pos = theseFeats['pos']
+    subpos = theseFeats['subpos']
 
     for (word, occs) in wordsOccs.items():
       cats = cases.get(word, None)
@@ -145,12 +176,97 @@ class PosTag(object):
     print(f'   pos assignments: {len(pos):>6}')
     print(f'subpos assignments: {len(subpos):>6}')
 
+    self.addFeatures(theseFeats)
+
+  def doPrnPrs(self, prnPrsStr):
+    wordFromSigns = self.wordFromSigns
+    sets = self.sets
+
+    api = self.api
+    F = api.F
+    L = api.L
+    T = api.T
+    warning = api.warning
+
+    api.setSilent(False)
+
+    # collect the forms in handy dicts
+
+    prnPrsForms = yaml.load(prnPrsStr)
+    exceptions = collections.defaultdict(dict)
+    regular = {}
+    for (case, tags) in prnPrsForms.items():
+      for (tag, forms) in tags.items():
+        for frm in forms:
+          if type(frm) is dict:
+            for (f, occs) in frm.items():
+              for occ in occs:
+                (doc, faceLine) = occ.split(maxsplit=1)
+                (face, line) = faceLine.split(':', maxsplit=1)
+                ln = T.nodeFromSection((doc, face, line))
+                if ln is None:
+                  warning(f'Unknown section: {occ}')
+                exceptions[ln][f] = (case, tag)
+          else:
+            regular[frm] = (case, tag)
+
+    # collect the occurrences
+
+    featsFromTag = {}
+
+    def parseTag(t):
+      info = dict(
+          ps=t[0],
+          gn=t[1],
+          nu=t[2:4],
+      )
+      featsFromTag[t] = info
+      return info
+
+    theseFeats = self.initFeatures('pos', 'subpos', 'cs', 'ps', 'gn', 'nu')
+    pos = theseFeats['pos']
+    subpos = theseFeats['subpos']
+    cs = theseFeats['cs']
+
+    pronouns = set()
+
+    for ln in F.otype.s('line'):
+      lineExceptions = exceptions[ln] if ln in exceptions else None
+      for w in L.d(ln, otype='word'):
+        word = wordFromSigns.get(w, None)
+        if word is None:
+          continue
+        case = None
+        tag = None
+        result = (
+            lineExceptions.get(word, regular.get(word, None))
+            if lineExceptions else
+            regular.get(word, None)
+        )
+        if result:
+          pronouns.add(word)
+          (case, tag) = result
+          pos[w] = 'prn'
+          subpos[w] = 'prs'
+          cs[w] = case
+          for (k, v) in featsFromTag.get(result[1], parseTag(tag)).items():
+            theseFeats[k][w] = v
+          sets['prnprs'].add(w)
+
+    print(f'    distinct words: {len(pronouns):>6}')
+    print(f'   pos assignments: {len(pos):>6}')
+    print(f'subpos assignments: {len(subpos):>6}')
+
+    self.addFeatures(theseFeats)
+
   def doPreps(self, prepStr):
     api = self.api
     F = api.F
     wordsOccs = self.wordsOccs
 
-    pos = self.pos
+    theseFeats = self.initFeatures('pos', 'subpos')
+    pos = theseFeats['pos']
+
     done = self.done
     sets = self.sets
 
@@ -173,6 +289,8 @@ class PosTag(object):
     print(f'pos assignments: {nOccs:>6}')
     print(f'  non-prep occs: {len(sets["nonprep"]):>6}')
 
+    self.addFeatures(theseFeats)
+
   def doNouns(self):
     api = self.api
     S = api.S
@@ -192,8 +310,6 @@ class PosTag(object):
     wordsUnknown = self.wordsUnknown
     wordFromSigns = self.wordFromSigns
 
-    pos = self.pos
-    subpos = self.subpos
     done = self.done
     sets = self.sets
 
@@ -317,6 +433,10 @@ word
 
     # deliver to pos and subpos
 
+    theseFeats = self.initFeatures('pos', 'subpos')
+    pos = theseFeats['pos']
+    subpos = theseFeats['subpos']
+
     for (nkind, occs) in sets.items():
       if nkind.startswith('noun'):
         for n in occs:
@@ -325,10 +445,11 @@ word
         for n in occs:
           subpos[n] = 'numeral'
 
+    self.addFeatures(theseFeats)
+
   def export(self, metaData):
-    pos = self.pos
-    subpos = self.subpos
     sets = self.sets
+    nodeFeatures = self.nodeFeatures
 
     A = self.A
     api = self.api
@@ -336,7 +457,6 @@ word
     TF = api.TF
     version = A.version
 
-    nodeFeatures = dict(pos=pos, subpos=subpos)
     TF.save(
         metaData=metaData,
         nodeFeatures=nodeFeatures,
@@ -348,6 +468,8 @@ word
     featRep = ', '.join(sorted(nodeFeatures))
 
     cats = collections.Counter()
+    pos = nodeFeatures['pos']
+    subpos = nodeFeatures['subpos']
     for w in F.otype.s('word'):
       ps = pos.get(w, '')
       sp = subpos.get(w, '')

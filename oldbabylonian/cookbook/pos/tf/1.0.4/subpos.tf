@@ -9,9 +9,10 @@
 @institute=NINO, DANS
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-06-05T11:18:19Z
+@dateWritten=2019-06-05T20:18:17Z
 
 258169	conj
+258181	prs
 258185	numeral
 258197	rel
 258201	numeral
@@ -23,6 +24,7 @@
 258292	neg
 258300	neg
 258303	neg
+258306	prs
 258325	conj
 258342	rel
 numeral
@@ -73,29 +75,38 @@ numeral
 258639	conj
 258641	rel
 258671	conj
+258677	prs
 258684	neg
 258688	neg
 258691	neg
 258693	neg
 258717	conj
+258723	prs
 258731	conj
 258733	rel
 numeral
+258738	prs
 258743	numeral
 258796	numeral
 258801	conj
 258813	rel
+258819	prs
 258840	conj
-258863	neg
+258862	prs
+neg
 258870	neg
 258882	neg
 258890	conj
 258894	rel
+258897	prs
 258908	rel
 258926	conj
-258941	neg
+258940	prs
+neg
 258945	rel
-258947	conj
+prs
+conj
+prs
 258962	conj
 258969	rel
 258976	rel
@@ -106,6 +117,7 @@ numeral
 258997	conj
 259010	rel
 259016	conj
+259026	prs
 259051	rel
 259058	conj
 259066	conj
@@ -116,14 +128,17 @@ numeral
 259095	neg
 259114	neg
 259120	rel
-259125	numeral
+259124	prs
+numeral
 259134	numeral
 259137	numeral
 259143	tmp
 259151	rel
+259154	prs
 259162	numeral
 259166	conj
-259180	conj
+259179	prs
+conj
 259191	rel
 259194	numeral
 259198	neg
@@ -133,28 +148,39 @@ numeral
 numeral
 259215	neg
 259220	rel
+259230	prs
 259257	rel
 259259	numeral
 rel
 259267	rel
+259271	prs
+259279	prs
 259293	rel
 259301	conj
 259311	conj
+259322	prs
 259325	rel
+259355	prs
 259370	rel
+259373	prs
 259376	rel
 259380	conj
 259384	rel
+259393	prs
 259401	rel
+259410	prs
 259423	rel
+259426	prs
 259428	conj
 259433	conj
+259448	prs
 259451	neg
 259460	rel
 259473	rel
 259486	rel
 259491	neg
-259497	numeral
+259496	prs
+numeral
 259500	rel
 259504	numeral
 259510	numeral
@@ -162,14 +188,18 @@ rel
 259520	numeral
 numeral
 259525	conj
-259527	numeral
+prs
+numeral
 259529	tmp
+259531	prs
 259550	conj
 259556	numeral
 numeral
+259575	prs
 259583	conj
 259600	tmp
 259602	numeral
+prs
 259609	rel
 259617	rel
 259624	conj
@@ -177,8 +207,10 @@ numeral
 259636	rel
 259644	numeral
 numeral
+259662	prs
 259666	tmp
-259676	numeral
+259675	prs
+numeral
 259679	rel
 259687	neg
 259695	conj
@@ -205,6 +237,7 @@ numeral
 259854	numeral
 numeral
 259859	rel
+259864	prs
 259870	numeral
 259873	rel
 259875	neg
@@ -214,11 +247,16 @@ numeral
 259885	conj
 259896	numeral
 numeral
+259900	prs
 259918	rel
 259926	numeral
 numeral
+259930	prs
+259938	prs
 259942	tmp
+259947	prs
 259960	conj
+259968	prs
 259972	numeral
 259979	conj
 259986	numeral
@@ -242,6 +280,7 @@ numeral
 rel
 260070	rel
 260072	neg
+260077	prs
 260093	rel
 260095	neg
 260097	rel
@@ -250,6 +289,7 @@ rel
 neg
 260114	rel
 neg
+260121	prs
 260127	rel
 260129	rel
 260132	conj
@@ -264,7 +304,8 @@ numeral
 260194	neg
 260209	rel
 260213	conj
-260218	numeral
+260217	prs
+numeral
 numeral
 260226	numeral
 260233	rel
@@ -276,8 +317,11 @@ numeral
 260285	numeral
 260287	conj
 numeral
+260293	prs
 260298	conj
+260301	prs
 260315	rel
+260318	prs
 260327	neg
 260334	numeral
 260356	neg
@@ -322,6 +366,7 @@ numeral
 260624	rel
 260629	conj
 260631	rel
+260635	prs
 260642	tmp
 260651	numeral
 260662	neg
@@ -337,8 +382,10 @@ rel
 260727	rel
 260732	conj
 260736	numeral
+260743	prs
 260751	numeral
 260755	neg
+260757	prs
 260768	rel
 260785	tmp
 260794	rel
@@ -414,16 +461,19 @@ numeral
 261167	numeral
 261193	numeral
 261198	neg
+261208	prs
 261218	conj
 261230	rel
 261234	rel
-261240	numeral
+261239	prs
+numeral
 numeral
 261253	numeral
 261255	numeral
 261262	tmp
 261265	conj
 261299	conj
+261305	prs
 261308	dem
 rel
 261311	rel
@@ -446,7 +496,9 @@ numeral
 261425	conj
 261434	conj
 261441	numeral
-261450	conj
+261449	prs
+conj
+prs
 261477	conj
 261494	conj
 261497	numeral
@@ -454,6 +506,7 @@ numeral
 261505	tmp
 261508	numeral
 261511	rel
+261516	prs
 261520	neg
 261535	rel
 261542	conj
@@ -464,6 +517,7 @@ numeral
 261598	conj
 261613	conj
 261615	rel
+prs
 261621	conj
 261624	rel
 261630	neg
@@ -485,6 +539,8 @@ numeral
 261735	rel
 261742	numeral
 261748	conj
+261754	prs
+261756	prs
 261763	neg
 261765	conj
 261771	rel
@@ -513,7 +569,8 @@ neg
 261904	neg
 261908	neg
 261911	rel
-261935	numeral
+261934	prs
+numeral
 261945	numeral
 261959	conj
 261971	rel
@@ -529,6 +586,7 @@ numeral
 262023	neg
 262033	numeral
 262036	neg
+262039	prs
 262042	rel
 262050	rel
 262053	rel
@@ -546,6 +604,7 @@ numeral
 262115	conj
 262124	conj
 262136	rel
+262139	prs
 262149	neg
 262151	conj
 262159	rel
@@ -563,23 +622,33 @@ numeral
 262206	rel
 262210	numeral
 262213	conj
+prs
 262217	rel
 262225	rel
 262237	conj
 262244	conj
+prs
 262250	rel
+262257	prs
+262262	prs
 262270	conj
 rel
+262277	prs
 262291	conj
 262306	rel
 262313	conj
 262316	rel
+262322	prs
+262327	prs
 262334	conj
 262339	neg
 262342	neg
 262349	rel
+262354	prs
 262367	conj
+262379	prs
 262388	neg
+262392	prs
 262396	numeral
 numeral
 262409	conj
@@ -596,9 +665,14 @@ numeral
 262449	numeral
 262455	numeral
 262459	conj
+262478	prs
+262482	prs
 262488	rel
+262500	prs
+262503	prs
 262525	conj
 262533	rel
+262536	prs
 262539	neg
 262542	neg
 262551	conj
@@ -613,12 +687,15 @@ numeral
 262605	conj
 262610	conj
 262612	rel
+262615	prs
 262622	neg
 262630	rel
 262637	conj
 262640	numeral
 262642	rel
+262648	prs
 262653	conj
+prs
 262657	conj
 262668	conj
 262670	rel
@@ -664,6 +741,8 @@ numeral
 263085	neg
 263092	rel
 263107	rel
+263112	prs
+263115	prs
 263117	rel
 263120	neg
 263130	rel
@@ -671,14 +750,26 @@ numeral
 263147	conj
 263151	rel
 263157	rel
+263160	prs
 263162	rel
 263166	numeral
+263207	prs
+263223	prs
 263241	numeral
+263251	prs
+263257	prs
+263264	prs
 263271	neg
 263274	tmp
-263278	neg
+263277	prs
+neg
 263286	rel
+263288	prs
+263292	prs
+263316	prs
 263321	neg
+263329	prs
+prs
 263332	neg
 263335	neg
 263338	rel
@@ -686,7 +777,10 @@ numeral
 263344	conj
 263377	rel
 263384	conj
+263389	prs
+263408	prs
 263411	conj
+263417	prs
 263420	rel
 263423	neg
 263436	conj
@@ -695,6 +789,7 @@ numeral
 263446	neg
 263450	numeral
 263454	neg
+263464	prs
 263478	conj
 263482	tmp
 263487	conj
@@ -710,6 +805,7 @@ numeral
 263526	rel
 263533	conj
 263550	rel
+263561	prs
 263566	numeral
 263568	conj
 numeral
@@ -718,39 +814,57 @@ numeral
 263593	numeral
 263602	rel
 263610	neg
+263616	prs
+263622	prs
 263628	rel
 263635	conj
+263657	prs
+263661	prs
 263663	rel
 263665	neg
 263669	neg
 263676	tmp
 263678	dem
+263696	prs
 263701	rel
 263703	rel
 263715	tmp
+263717	prs
 263735	conj
-263748	conj
+prs
+263744	prs
+263747	prs
+conj
 rel
+263757	prs
 263770	rel
 263787	numeral
 263800	conj
 263805	neg
 263807	conj
+263815	prs
 263823	conj
 numeral
+263830	prs
 263837	numeral
+263842	prs
 263851	conj
 263873	conj
 263894	conj
-263899	rel
+263898	prs
+rel
 263919	conj
+263921	prs
+263936	prs
 263940	conj
 263944	rel
 263947	numeral
 263956	conj
 263961	conj
 263970	conj
+263995	prs
 263997	conj
+264002	prs
 264008	rel
 264054	rel
 264056	neg
@@ -776,6 +890,7 @@ neg
 264207	rel
 264209	conj
 264211	rel
+264215	prs
 264218	conj
 264228	conj
 264233	rel
@@ -795,7 +910,8 @@ neg
 264326	conj
 264331	numeral
 264340	conj
-264347	neg
+264346	prs
+neg
 264349	neg
 264353	conj
 264360	rel
@@ -808,6 +924,7 @@ numeral
 264420	rel
 264427	conj
 264440	numeral
+264448	prs
 264450	neg
 264454	tmp
 264457	rel
@@ -816,21 +933,30 @@ numeral
 264487	conj
 264495	conj
 264501	conj
+prs
+264524	prs
 264533	neg
 264544	neg
 264550	rel
 264557	conj
+264564	prs
+264572	prs
+264583	prs
 264588	tmp
+264590	prs
 264603	numeral
+264617	prs
 264621	conj
 264627	numeral
+264633	prs
 264635	rel
 264649	rel
 264666	rel
 264676	numeral
 264684	rel
 numeral
-264689	conj
+264688	prs
+conj
 264691	conj
 264714	conj
 264733	conj
@@ -838,14 +964,18 @@ numeral
 numeral
 264759	rel
 numeral
+264763	prs
 264767	rel
 264807	rel
 264812	numeral
 264817	conj
+264829	prs
 264835	rel
 264843	numeral
 numeral
 264852	rel
+prs
+264866	prs
 264872	conj
 264906	conj
 264911	conj
@@ -853,9 +983,12 @@ numeral
 264939	conj
 264946	rel
 264951	neg
+prs
 264958	conj
+264962	prs
 264964	rel
 264966	rel
+264982	prs
 264993	conj
 265001	rel
 265005	conj
@@ -867,14 +1000,18 @@ numeral
 numeral
 265035	conj
 265043	tmp
+265045	prs
 265048	neg
+265053	prs
 265057	conj
 265060	rel
 265063	numeral
 265066	numeral
 265084	rel
 265097	conj
-265104	conj
+265103	prs
+conj
+prs
 265113	neg
 265115	conj
 265118	conj
@@ -886,7 +1023,9 @@ numeral
 265160	neg
 265164	neg
 265168	conj
+265171	prs
 265173	conj
+prs
 265186	rel
 265196	conj
 265202	rel
@@ -898,20 +1037,26 @@ numeral
 265239	rel
 265246	conj
 265256	rel
+265262	prs
 265278	conj
 265281	rel
 265289	numeral
 265292	tmp
 265298	numeral
 265300	rel
+265315	prs
 265328	numeral
 265331	rel
 265333	numeral
 265340	conj
 numeral
-265352	neg
+265349	prs
+265351	prs
+neg
 265356	rel
 265358	rel
+265380	prs
+265408	prs
 265416	neg
 265418	neg
 265421	rel
@@ -922,7 +1067,9 @@ numeral
 265436	conj
 265438	rel
 265440	conj
+265448	prs
 265469	rel
+265472	prs
 265487	conj
 265506	neg
 265511	neg
@@ -930,29 +1077,36 @@ numeral
 265534	conj
 265538	numeral
 265541	rel
+265544	prs
 265548	conj
 265550	rel
 265555	neg
 265558	neg
 265560	tmp
 numeral
+265570	prs
 265572	neg
 265582	conj
 265585	neg
 265595	conj
 265612	conj
+265616	prs
 265624	neg
 265626	neg
 265628	conj
 265632	neg
 265635	neg
 265637	tmp
+265642	prs
+265645	prs
+265651	prs
 265654	conj
 265663	numeral
 numeral
 265673	conj
 265675	rel
 265681	neg
+265685	prs
 265689	conj
 265691	numeral
 265694	numeral
@@ -963,15 +1117,21 @@ numeral
 numeral
 numeral
 numeral
-265722	neg
+265721	prs
+neg
 265732	tmp
+265740	prs
 265744	conj
 265755	rel
 265758	neg
 265760	neg
 265768	conj
 265773	conj
+prs
+265777	prs
+265784	prs
 265788	neg
+265791	prs
 265793	numeral
 265799	tmp
 265810	rel
@@ -999,13 +1159,20 @@ numeral
 265982	conj
 266003	conj
 266011	rel
+266014	prs
+266031	prs
 266039	conj
 266060	conj
 266068	rel
-266076	numeral
+266075	prs
+numeral
 266079	rel
 266085	neg
 266089	rel
+266096	prs
+266100	prs
+266102	prs
+266117	prs
 266119	numeral
 266126	numeral
 266129	rel
@@ -1017,6 +1184,7 @@ numeral
 266179	neg
 266187	rel
 266197	numeral
+266199	prs
 266201	neg
 266203	neg
 266206	neg
@@ -1036,10 +1204,13 @@ numeral
 266297	numeral
 266299	rel
 266301	rel
+266305	prs
+266307	prs
 266309	neg
 266311	numeral
 266315	rel
-266321	numeral
+266320	prs
+numeral
 266325	numeral
 266331	numeral
 266333	rel
@@ -1051,8 +1222,10 @@ numeral
 266378	numeral
 266380	rel
 266391	conj
+266401	prs
 266405	numeral
 numeral
+266412	prs
 266419	tmp
 266423	rel
 numeral
@@ -1073,18 +1246,24 @@ numeral
 266534	conj
 266536	neg
 266553	rel
+266555	prs
 266558	neg
 266566	neg
 266577	neg
+266591	prs
+266606	prs
 266620	conj
+266624	prs
 266626	neg
 266637	rel
+266639	prs
 266659	numeral
 266661	numeral
 266663	rel
 266666	numeral
 266670	conj
 266674	rel
+266677	prs
 266684	rel
 266687	neg
 266693	rel
@@ -1093,7 +1272,10 @@ numeral
 266713	conj
 266716	conj
 266735	conj
+266753	prs
+266757	prs
 266760	conj
+266766	prs
 266773	rel
 266785	tmp
 266809	conj
@@ -1108,6 +1290,7 @@ numeral
 266883	dem
 266891	neg
 266915	neg
+266919	prs
 266921	conj
 266928	conj
 266943	rel
@@ -1119,7 +1302,9 @@ numeral
 267002	neg
 267023	dem
 rel
-267026	conj
+prs
+conj
+prs
 267043	neg
 267047	conj
 267053	rel
@@ -1148,19 +1333,26 @@ neg
 267161	rel
 267164	neg
 267169	neg
+267173	prs
 267175	neg
 267182	rel
-267188	neg
+267187	prs
+neg
 267196	neg
 267198	neg
 267204	conj
+267214	prs
 267219	rel
+267223	prs
+267230	prs
 267232	neg
+267237	prs
 267241	rel
 267248	conj
 267255	rel
 267266	conj
 267274	rel
+267285	prs
 267295	numeral
 267307	conj
 267312	numeral
@@ -1173,6 +1365,7 @@ numeral
 267340	numeral
 numeral
 267346	neg
+267352	prs
 267358	numeral
 numeral
 267361	numeral
@@ -1206,6 +1399,7 @@ numeral
 267496	neg
 267505	neg
 267507	conj
+prs
 267517	conj
 267523	numeral
 267526	numeral
@@ -1219,7 +1413,9 @@ numeral
 267645	conj
 267651	numeral
 267655	numeral
-267663	conj
+267662	prs
+conj
+267668	prs
 267673	numeral
 267679	conj
 numeral
@@ -1228,8 +1424,11 @@ numeral
 numeral
 267699	conj
 267702	neg
+267741	prs
+267745	prs
 267772	tmp
 numeral
+prs
 267778	rel
 267801	rel
 267803	neg
@@ -1247,7 +1446,10 @@ numeral
 267865	tmp
 267867	conj
 267880	conj
+267885	prs
 267908	conj
+267914	prs
+267928	prs
 267935	numeral
 267947	numeral
 numeral
@@ -1255,14 +1457,17 @@ rel
 267961	rel
 267972	numeral
 numeral
-267981	neg
+267980	prs
+neg
 267987	neg
+267991	prs
 268004	tmp
 268012	numeral
 268016	numeral
 268019	numeral
 268022	conj
 numeral
+268027	prs
 268030	numeral
 268035	rel
 268045	conj
@@ -1273,8 +1478,10 @@ numeral
 268134	numeral
 numeral
 268138	rel
+268143	prs
 268149	numeral
 268159	conj
+268174	prs
 268181	conj
 268188	neg
 268190	neg
@@ -1284,15 +1491,19 @@ numeral
 268260	neg
 268267	rel
 268274	conj
-268320	neg
+268319	prs
+neg
 268333	neg
 268340	neg
 268344	neg
 268368	rel
+268371	prs
 268388	conj
+268394	prs
 268398	conj
 268441	neg
 268443	conj
+prs
 268456	conj
 268461	numeral
 268468	neg
@@ -1328,9 +1539,11 @@ numeral
 268713	neg
 268716	neg
 268752	rel
+268755	prs
 268757	neg
 268759	tmp
 268781	neg
+268784	prs
 268793	rel
 268795	numeral
 268810	numeral
@@ -1340,6 +1553,7 @@ numeral
 268825	conj
 268837	conj
 268843	rel
+268846	prs
 268848	rel
 268854	numeral
 268862	numeral
@@ -1371,6 +1585,7 @@ numeral
 269007	neg
 269026	conj
 269040	rel
+269046	prs
 269048	rel
 269060	rel
 269067	conj
@@ -1399,7 +1614,8 @@ numeral
 269255	conj
 269258	numeral
 269260	conj
-269262	numeral
+prs
+numeral
 269269	numeral
 269272	numeral
 269277	numeral
@@ -1416,7 +1632,8 @@ numeral
 269332	conj
 269334	rel
 269336	rel
-269345	numeral
+269344	prs
+numeral
 269348	rel
 269356	numeral
 269359	numeral
@@ -1428,24 +1645,30 @@ numeral
 269401	numeral
 269409	numeral
 269413	conj
+269417	prs
 269421	neg
 269424	rel
 269432	conj
+prs
 269436	rel
 269439	neg
+269449	prs
 269453	conj
 269458	neg
 269466	dem
 269468	rel
 269476	rel
 269479	rel
+269484	prs
 269488	numeral
 269503	rel
 269507	rel
 269509	rel
 269521	neg
 269538	conj
-269540	conj
+prs
+conj
+prs
 269549	conj
 269557	conj
 269564	rel
@@ -1471,6 +1694,7 @@ numeral
 269713	neg
 269718	neg
 269722	rel
+269726	prs
 269740	conj
 269744	rel
 269751	conj
@@ -1485,11 +1709,14 @@ numeral
 269825	conj
 269833	conj
 269845	conj
+prs
 269848	neg
 269868	conj
+269872	prs
 269876	conj
 269879	neg
 269887	neg
+269897	prs
 269899	tmp
 numeral
 269903	rel
@@ -1497,24 +1724,34 @@ numeral
 269915	numeral
 269918	rel
 269920	rel
+269922	prs
 269925	conj
 269929	conj
+269932	prs
 269937	conj
 269941	rel
 269959	rel
-269968	rel
+269967	prs
+rel
 269971	rel
 269980	conj
 270000	tmp
 270005	numeral
 270012	neg
-270057	conj
+270041	prs
+270056	prs
+conj
+270061	prs
 270082	conj
 270094	conj
+270097	prs
 270103	rel
+270105	prs
 270118	neg
 270124	numeral
-270139	neg
+270133	prs
+270138	prs
+neg
 270147	conj
 270179	rel
 270196	conj
@@ -1561,6 +1798,7 @@ rel
 270568	numeral
 270580	conj
 270593	rel
+270622	prs
 270656	numeral
 270660	rel
 numeral
@@ -1572,6 +1810,7 @@ numeral
 270723	rel
 270729	neg
 270740	conj
+270746	prs
 270758	neg
 270767	conj
 270789	tmp
@@ -1589,6 +1828,7 @@ numeral
 270898	rel
 270910	numeral
 270917	rel
+prs
 270920	conj
 270925	tmp
 270934	neg
@@ -1597,10 +1837,12 @@ numeral
 270965	rel
 270986	neg
 270996	conj
+271004	prs
 271006	tmp
 271008	numeral
 271010	tmp
-271017	neg
+271016	prs
+neg
 271019	conj
 271021	neg
 271040	neg
@@ -1611,7 +1853,10 @@ neg
 271066	conj
 271069	numeral
 numeral
+271084	prs
 271086	conj
+271094	prs
+271098	prs
 271165	rel
 271170	neg
 271184	conj
@@ -1640,6 +1885,7 @@ numeral
 271423	numeral
 numeral
 271438	neg
+271443	prs
 271450	rel
 numeral
 271471	neg
@@ -1672,6 +1918,7 @@ numeral
 271643	tmp
 numeral
 271647	neg
+271658	prs
 271661	rel
 271664	rel
 271666	conj
@@ -1682,6 +1929,8 @@ numeral
 271679	rel
 271692	rel
 271715	rel
+271718	prs
+271723	prs
 271726	rel
 271730	conj
 271744	conj
@@ -1717,6 +1966,7 @@ numeral
 271928	neg
 271951	neg
 271953	numeral
+271961	prs
 271981	rel
 271984	rel
 271989	conj
@@ -1735,20 +1985,26 @@ tmp
 272082	conj
 272085	rel
 272088	conj
+272102	prs
 272109	tmp
+272117	prs
 272121	tmp
+272124	prs
 272129	rel
 272137	conj
 272139	rel
+272154	prs
 272172	tmp
 272176	neg
 272178	conj
+272182	prs
 272190	rel
 272195	numeral
 272210	rel
 neg
 272218	rel
 272221	rel
+272240	prs
 272260	conj
 272265	conj
 272276	tmp
@@ -1771,17 +2027,23 @@ conj
 272405	rel
 272408	rel
 272416	rel
+272424	prs
+272427	prs
 272438	rel
 272440	rel
 272442	rel
 272445	conj
 272449	rel
 272451	tmp
-272467	numeral
+272454	prs
+272466	prs
+numeral
 272469	rel
 272483	tmp
 272492	rel
-272502	rel
+272501	prs
+rel
+272510	prs
 272525	rel
 272528	rel
 272534	neg
@@ -1805,6 +2067,7 @@ numeral
 272673	tmp
 numeral
 272676	conj
+272678	prs
 272695	conj
 272697	rel
 272701	numeral
@@ -1860,7 +2123,8 @@ numeral
 273075	rel
 273077	numeral
 273081	neg
-273090	neg
+273089	prs
+neg
 273092	numeral
 273097	rel
 273103	numeral
@@ -1873,7 +2137,9 @@ numeral
 273169	rel
 273176	rel
 273182	conj
+273191	prs
 273193	conj
+273195	prs
 273199	rel
 273206	rel
 273218	rel
@@ -1881,10 +2147,13 @@ numeral
 273232	rel
 273237	neg
 273242	conj
+prs
 273248	rel
 273253	conj
+273262	prs
 273265	conj
 273275	neg
+273278	prs
 273282	rel
 273287	rel
 273294	conj
@@ -1894,6 +2163,7 @@ numeral
 273314	conj
 273317	conj
 273320	rel
+273325	prs
 273373	numeral
 273398	conj
 273401	rel
@@ -1921,21 +2191,28 @@ numeral
 273632	rel
 numeral
 273637	rel
+273646	prs
 273654	conj
 numeral
 273658	neg
 273660	rel
+273663	prs
+273670	prs
+273675	prs
 273685	rel
 273701	conj
+273716	prs
 273718	rel
 273727	conj
 273735	tmp
+273737	prs
 273747	conj
 273751	conj
 273754	conj
 273764	conj
 273768	conj
 273776	rel
+273790	prs
 273793	conj
 273799	conj
 273804	neg
@@ -1974,9 +2251,13 @@ neg
 274135	neg
 274150	conj
 274162	rel
+274173	prs
 274176	conj
+274186	prs
+274190	prs
 274200	conj
 274219	conj
+prs
 274225	numeral
 274229	numeral
 274234	numeral
@@ -1994,6 +2275,7 @@ numeral
 274314	conj
 274332	conj
 274336	conj
+prs
 274352	rel
 274359	conj
 274364	numeral
@@ -2002,6 +2284,7 @@ numeral
 274384	conj
 274392	rel
 274395	rel
+prs
 274410	rel
 274416	neg
 274418	numeral
@@ -2011,6 +2294,7 @@ numeral
 274439	conj
 274441	rel
 274452	neg
+274457	prs
 274472	conj
 274480	rel
 274500	conj
@@ -2022,19 +2306,24 @@ numeral
 274539	rel
 274542	conj
 274548	rel
+prs
 274561	conj
 rel
 274602	rel
 274614	neg
 274631	numeral
 274634	rel
+274639	prs
 274646	rel
 274648	tmp
 274651	numeral
 274658	neg
 274661	neg
 274665	neg
-274673	conj
+274672	prs
+conj
+prs
+274681	prs
 274686	conj
 274692	neg
 274699	neg
@@ -2048,6 +2337,7 @@ rel
 274760	numeral
 274762	conj
 274769	conj
+274772	prs
 274781	rel
 274785	conj
 274790	rel
@@ -2057,30 +2347,40 @@ rel
 274818	conj
 274823	conj
 numeral
+274833	prs
 274837	neg
+274845	prs
 274850	numeral
 274855	rel
+274869	prs
 274884	conj
 274887	neg
 274892	conj
 274901	conj
 274909	neg
+274911	prs
 274916	rel
 274919	neg
 274923	rel
 274930	conj
 274936	rel
+274938	prs
 274946	rel
 274952	numeral
 274956	numeral
 274963	numeral
-274982	neg
+274972	prs
+274981	prs
+neg
 274985	rel
 neg
+274993	prs
 275010	neg
+275017	prs
 275035	conj
 275041	rel
-275046	numeral
+275045	prs
+numeral
 275050	numeral
 275054	conj
 275056	rel
@@ -2096,23 +2396,31 @@ numeral
 numeral
 275117	rel
 275131	neg
+275135	prs
+275140	prs
 275144	neg
-275154	neg
+275153	prs
+neg
 275156	tmp
 275177	rel
 275183	conj
 275185	rel
 275188	neg
-275192	conj
+275191	prs
+conj
 275197	conj
 275204	rel
 275210	neg
 275213	neg
 275216	neg
 275218	conj
+prs
 275221	neg
 275226	rel
-275250	neg
+275237	prs
+275246	prs
+275249	prs
+neg
 275276	numeral
 numeral
 275289	neg
@@ -2122,12 +2430,14 @@ numeral
 275310	conj
 275317	rel
 275334	rel
+275341	prs
 275356	neg
 275364	conj
 275369	conj
 275376	conj
 275389	numeral
 275394	neg
+275397	prs
 275414	rel
 275423	neg
 275428	neg
@@ -2137,12 +2447,17 @@ numeral
 275456	conj
 275475	conj
 275481	rel
+275486	prs
+275488	prs
 275498	conj
 275504	rel
 275513	rel
 275519	numeral
 275523	conj
 numeral
+275536	prs
+275539	prs
+275543	prs
 275548	numeral
 275553	tmp
 275563	rel
@@ -2150,27 +2465,35 @@ numeral
 275574	neg
 275576	neg
 275579	neg
+prs
 275584	rel
 275605	numeral
 275610	conj
 275618	conj
+prs
 275639	conj
 275641	numeral
+275658	prs
 275664	neg
+275666	prs
 275673	rel
 275679	numeral
+275689	prs
 275705	numeral
 275717	conj
 275720	numeral
 275726	rel
 275728	conj
+prs
 275736	conj
 275744	conj
 275746	rel
-275749	conj
+275748	prs
+conj
 275767	tmp
 275772	conj
 275782	rel
+275785	prs
 275788	numeral
 numeral
 numeral
@@ -2186,6 +2509,7 @@ numeral
 275817	rel
 275819	conj
 275831	conj
+275843	prs
 275856	numeral
 275880	conj
 275901	conj
@@ -2195,7 +2519,8 @@ numeral
 275941	numeral
 275965	numeral
 275969	neg
-275972	conj
+275971	prs
+conj
 275977	numeral
 275984	conj
 numeral
@@ -2212,9 +2537,11 @@ numeral
 276135	rel
 276147	numeral
 276156	rel
-276166	neg
+276165	prs
+neg
 276168	numeral
 276178	neg
+276191	prs
 276199	neg
 276201	conj
 276204	neg
@@ -2222,13 +2549,15 @@ numeral
 276231	neg
 276239	conj
 276248	rel
-276252	numeral
+276251	prs
+numeral
 276259	rel
 276276	numeral
 276280	neg
 276282	rel
 276285	numeral
 276299	conj
+276304	prs
 276316	rel
 276327	conj
 276347	numeral
@@ -2237,18 +2566,25 @@ numeral
 276375	rel
 276377	rel
 276381	tmp
+276383	prs
+276388	prs
+276391	prs
 276395	neg
 276399	neg
+276409	prs
 276412	rel
 276417	conj
+276425	prs
 276430	neg
 276432	neg
 276437	rel
 276451	conj
 276464	conj
 276469	conj
+prs
 276473	conj
 rel
+276491	prs
 276525	neg
 276527	conj
 numeral
@@ -2259,6 +2595,7 @@ numeral
 276544	rel
 276547	numeral
 276562	numeral
+276566	prs
 276568	conj
 276577	rel
 276584	conj
@@ -2270,9 +2607,11 @@ numeral
 276681	conj
 276683	conj
 276690	numeral
+276693	prs
 276696	neg
 276709	conj
 276731	conj
+276745	prs
 276747	numeral
 276759	neg
 276763	neg
@@ -2294,11 +2633,18 @@ numeral
 276879	conj
 276881	rel
 276885	neg
+276887	prs
 276894	neg
 276917	conj
 276923	rel
 276926	rel
+276928	prs
+276935	prs
+276943	prs
+276946	prs
+276950	prs
 276955	rel
+276958	prs
 276964	neg
 276977	rel
 276983	rel
@@ -2323,7 +2669,9 @@ neg
 277152	rel
 277212	tmp
 277219	neg
+277221	prs
 277233	conj
+277236	prs
 277244	neg
 277247	conj
 277250	neg
@@ -2332,31 +2680,44 @@ neg
 277280	conj
 277303	conj
 277310	neg
+277325	prs
 277332	conj
+277339	prs
 277346	neg
+277349	prs
 277363	conj
 277369	numeral
+277386	prs
 277399	rel
 277406	conj
 277435	conj
 277440	rel
+277444	prs
 277452	neg
 277454	numeral
 277460	numeral
 277572	neg
 277615	conj
 277665	conj
+277679	prs
 277702	neg
 277707	numeral
 277722	rel
 277744	rel
 277747	rel
-277754	neg
+277753	prs
+neg
 277761	conj
 277770	conj
+277788	prs
 277793	neg
 277795	numeral
+277801	prs
+277805	prs
+277812	prs
+277820	prs
 277841	conj
+277850	prs
 277854	neg
 277856	conj
 numeral
@@ -2376,12 +2737,16 @@ conj
 277921	conj
 numeral
 277930	conj
+277934	prs
 277945	neg
 277955	conj
 277959	rel
-277969	rel
+277968	prs
+rel
 277973	conj
 278013	numeral
+278020	prs
+prs
 278028	neg
 278045	numeral
 278055	neg
@@ -2392,6 +2757,7 @@ numeral
 278081	conj
 numeral
 278085	rel
+278091	prs
 278098	numeral
 278100	numeral
 278106	numeral
@@ -2409,12 +2775,15 @@ numeral
 278179	neg
 278182	neg
 278188	neg
+278195	prs
 278197	neg
 278204	neg
 278220	rel
 278223	tmp
 278225	numeral
+278227	prs
 278231	neg
+278243	prs
 278246	numeral
 278266	rel
 278275	neg
@@ -2423,6 +2792,7 @@ numeral
 278315	conj
 278325	numeral
 278334	numeral
+278347	prs
 278396	conj
 278410	conj
 278414	rel
@@ -2432,6 +2802,7 @@ numeral
 278446	neg
 278448	neg
 278450	neg
+278455	prs
 278459	rel
 278463	neg
 278465	neg
@@ -2444,24 +2815,29 @@ numeral
 numeral
 278496	conj
 278506	rel
-278508	conj
+prs
+conj
 278514	conj
 278518	conj
 278558	rel
 278569	rel
+278572	prs
 278580	rel
 278587	rel
 278598	rel
 neg
+278610	prs
 278615	rel
 278619	conj
 278632	rel
+278641	prs
 278649	conj
 278662	rel
 278676	conj
 278685	conj
 278694	neg
 278713	neg
+278718	prs
 278737	rel
 278740	numeral
 rel
@@ -2471,14 +2847,22 @@ rel
 278780	rel
 278787	neg
 278797	conj
+278803	prs
 278826	conj
 278835	rel
+278842	prs
+278847	prs
 278849	conj
 278885	neg
+278920	prs
 278945	rel
 278958	rel
+278979	prs
+278983	prs
 278986	neg
+278989	prs
 278992	rel
+278995	prs
 279002	conj
 279010	numeral
 279013	conj
@@ -2488,6 +2872,9 @@ rel
 279046	rel
 279057	numeral
 279086	conj
+279091	prs
+279094	prs
+279136	prs
 279152	numeral
 279168	rel
 279173	neg
@@ -2502,12 +2889,15 @@ rel
 279276	numeral
 279282	neg
 279285	rel
+279288	prs
 279290	rel
+279322	prs
 279348	conj
 279351	tmp
 279354	numeral
 numeral
 279358	rel
+279364	prs
 279378	numeral
 279380	rel
 279382	numeral
@@ -2517,6 +2907,7 @@ numeral
 279413	tmp
 279415	numeral
 279429	neg
+279445	prs
 279453	rel
 279464	neg
 279471	tmp
@@ -2533,6 +2924,7 @@ numeral
 279565	conj
 279586	conj
 279591	rel
+279594	prs
 279604	rel
 279607	neg
 279610	conj
@@ -2545,11 +2937,15 @@ numeral
 279663	conj
 279672	neg
 279679	rel
+prs
 279683	conj
+prs
 279687	neg
 279699	neg
+279725	prs
 279748	numeral
 279750	numeral
+279759	prs
 279761	neg
 279780	rel
 279792	conj
@@ -2574,6 +2970,11 @@ numeral
 279976	conj
 numeral
 279987	conj
+279992	prs
+279995	prs
+280003	prs
+280011	prs
+280015	prs
 280018	conj
 280040	neg
 280042	tmp
@@ -2592,6 +2993,7 @@ numeral
 280123	neg
 280127	tmp
 280131	rel
+280136	prs
 280147	neg
 280149	neg
 280180	numeral
@@ -2601,6 +3003,8 @@ numeral
 280196	numeral
 280212	rel
 280218	neg
+280221	prs
+280230	prs
 280233	neg
 280240	conj
 280246	conj
@@ -2627,6 +3031,7 @@ numeral
 280414	numeral
 280435	conj
 280444	neg
+280449	prs
 280458	numeral
 280460	numeral
 280464	conj
@@ -2661,6 +3066,9 @@ numeral
 280782	conj
 280788	neg
 280821	conj
+280826	prs
+280835	prs
+280846	prs
 280849	conj
 280855	neg
 280859	rel
@@ -2671,12 +3079,15 @@ numeral
 280911	rel
 280941	rel
 280957	conj
+280959	prs
 280968	conj
 280977	conj
+280987	prs
 280994	tmp
 280997	conj
 281000	numeral
 281004	neg
+281020	prs
 281045	rel
 281055	conj
 281073	numeral
@@ -2684,9 +3095,11 @@ numeral
 281087	conj
 281090	tmp
 281117	neg
-281122	conj
+281121	prs
+conj
 281133	conj
-281137	conj
+281136	prs
+conj
 281181	conj
 281202	conj
 281209	rel
@@ -2704,9 +3117,12 @@ numeral
 281280	numeral
 281297	conj
 281302	rel
+281307	prs
 281309	conj
 281313	rel
-281326	neg
+281325	prs
+neg
+281331	prs
 281341	neg
 281355	rel
 numeral
@@ -2720,18 +3136,23 @@ numeral
 281414	rel
 281443	conj
 281454	neg
+281456	prs
 281476	conj
 281491	rel
 281509	conj
 281514	dem
 rel
+281529	prs
 281551	neg
 281567	numeral
 281570	rel
 281575	numeral
+281595	prs
 281603	conj
 281611	neg
 281614	conj
+281620	prs
+281625	prs
 281628	numeral
 281638	conj
 281647	conj
@@ -2752,8 +3173,10 @@ rel
 281747	neg
 281749	tmp
 281751	rel
+281759	prs
 281778	dem
-281783	rel
+281782	prs
+rel
 281786	tmp
 281824	neg
 281828	conj
@@ -2761,6 +3184,7 @@ rel
 281838	rel
 281847	conj
 281853	rel
+281855	prs
 281859	numeral
 281868	rel
 281876	neg
@@ -2774,6 +3198,7 @@ neg
 281936	rel
 tmp
 281946	numeral
+281952	prs
 281956	rel
 281971	conj
 281988	rel
@@ -2784,6 +3209,7 @@ tmp
 282093	numeral
 282102	rel
 neg
+prs
 282116	neg
 282129	neg
 282132	neg
@@ -2819,6 +3245,7 @@ neg
 282430	numeral
 282439	neg
 282441	numeral
+282445	prs
 282451	neg
 282463	conj
 282467	conj
@@ -2841,6 +3268,7 @@ numeral
 282640	rel
 282668	rel
 282670	rel
+282685	prs
 282708	rel
 282737	numeral
 282783	numeral
@@ -2865,21 +3293,26 @@ numeral
 282956	neg
 282965	neg
 282980	conj
-282983	conj
+282982	prs
+conj
 282992	rel
 283014	neg
 283075	conj
 283081	rel
 283110	numeral
 283115	rel
+283117	prs
+283121	prs
 283125	neg
 283127	tmp
+283134	prs
 283139	rel
 rel
 283148	conj
 283155	conj
 283157	rel
 283178	rel
+283186	prs
 283189	rel
 283195	conj
 283200	conj
@@ -2893,21 +3326,27 @@ rel
 283223	conj
 283227	rel
 numeral
+283233	prs
 283235	numeral
 283248	rel
 283251	neg
+283257	prs
 283279	neg
 283286	conj
 283299	conj
+283301	prs
 283303	numeral
 283305	rel
 283308	numeral
 283316	neg
 283320	conj
 283331	neg
+283336	prs
 283347	neg
 283353	neg
+283359	prs
 283370	numeral
+283390	prs
 283396	conj
 283404	conj
 283443	rel
@@ -2935,7 +3374,10 @@ numeral
 283513	rel
 283526	numeral
 283528	neg
-283563	numeral
+283537	prs
+prs
+283562	prs
+numeral
 numeral
 283573	numeral
 283578	neg
@@ -2955,6 +3397,8 @@ numeral
 283673	rel
 283675	numeral
 283683	conj
+283688	prs
+283714	prs
 283718	neg
 283736	neg
 283754	numeral
@@ -2966,12 +3410,14 @@ numeral
 283782	conj
 283785	neg
 283793	conj
+283799	prs
 283803	rel
 283805	numeral
 283812	tmp
 283815	rel
 283817	neg
-283829	conj
+283828	prs
+conj
 283834	conj
 283841	conj
 283844	rel
@@ -2982,6 +3428,7 @@ numeral
 283859	rel
 283861	numeral
 numeral
+283872	prs
 283885	rel
 283892	neg
 283908	neg
@@ -2992,6 +3439,8 @@ numeral
 283931	conj
 283933	neg
 283936	neg
+283956	prs
+283963	prs
 283972	conj
 283981	rel
 283994	conj
@@ -3006,6 +3455,7 @@ numeral
 284066	conj
 284075	conj
 284081	conj
+284084	prs
 284094	neg
 284100	rel
 284103	neg
@@ -3029,10 +3479,12 @@ numeral
 284186	neg
 284198	numeral
 numeral
+284214	prs
 284217	neg
 284226	rel
 284244	rel
 284247	tmp
+284253	prs
 284257	neg
 284263	numeral
 284266	rel
@@ -3041,6 +3493,7 @@ tmp
 284290	numeral
 284299	rel
 284309	conj
+284320	prs
 284331	conj
 284343	neg
 284346	rel
@@ -3052,8 +3505,14 @@ rel
 284369	tmp
 284374	conj
 284388	rel
+284398	prs
+284400	prs
+284405	prs
+284408	prs
 284420	rel
 284424	rel
+284427	prs
+284434	prs
 284438	conj
 284441	rel
 284445	neg
@@ -3062,6 +3521,7 @@ rel
 284459	conj
 rel
 284463	rel
+284469	prs
 284477	rel
 284483	neg
 284488	neg
@@ -3069,7 +3529,10 @@ rel
 284512	numeral
 284526	rel
 284530	rel
-284532	conj
+prs
+conj
+prs
+284541	prs
 284543	conj
 284553	rel
 284565	conj
@@ -3089,10 +3552,13 @@ numeral
 284625	neg
 284628	rel
 284631	conj
+284642	prs
 284645	conj
 numeral
-284651	neg
+284650	prs
+neg
 284656	neg
+284665	prs
 284677	neg
 284699	conj
 284701	rel
@@ -3101,22 +3567,29 @@ numeral
 284718	rel
 284721	conj
 numeral
+284724	prs
+284732	prs
 284735	neg
 284741	neg
+284757	prs
 284759	neg
 284763	rel
+284781	prs
 284788	neg
 284792	conj
 284797	conj
 284799	rel
-284822	numeral
+284821	prs
+numeral
 284844	neg
 284846	conj
+284853	prs
 284855	neg
 284869	neg
 284896	numeral
 284904	numeral
 284910	conj
+284912	prs
 284915	rel
 284927	conj
 284929	numeral
@@ -3124,44 +3597,63 @@ numeral
 numeral
 284938	numeral
 numeral
+284946	prs
 284954	rel
 284956	neg
 284959	neg
 284963	conj
 284968	neg
 284990	neg
+284994	prs
 285004	numeral
 285006	numeral
 285011	numeral
 285013	numeral
 285018	neg
 285055	neg
-285059	neg
+285058	prs
+neg
 285068	rel
 285089	conj
 285094	rel
 285097	neg
 285104	conj
 285110	conj
+285116	prs
+285120	prs
 285125	neg
 285138	rel
+285143	prs
 285149	neg
 285154	neg
+285157	prs
+285164	prs
 285167	numeral
+285173	prs
 285176	numeral
 285179	neg
+285194	prs
+285206	prs
+285228	prs
+285235	prs
 285240	conj
 285248	rel
+285258	prs
 285264	conj
 285270	rel
+285273	prs
 285278	conj
 285281	conj
 285316	conj
 285324	rel
 285334	numeral
 285336	neg
+285338	prs
 285341	tmp
+285344	prs
+285349	prs
 285374	conj
+285379	prs
 285396	rel
 285405	neg
 285415	conj
@@ -3171,6 +3663,7 @@ numeral
 285437	conj
 285442	rel
 285453	neg
+285461	prs
 285463	rel
 285473	conj
 285485	numeral
@@ -3185,7 +3678,9 @@ numeral
 285529	numeral
 numeral
 285532	tmp
+285534	prs
 285539	neg
+285550	prs
 285559	rel
 285573	numeral
 285590	numeral
@@ -3197,6 +3692,9 @@ numeral
 285613	numeral
 285617	numeral
 285620	numeral
+285627	prs
+285641	prs
+285647	prs
 285649	rel
 285675	numeral
 285684	conj
@@ -3209,6 +3707,7 @@ numeral
 285743	rel
 285752	conj
 tmp
+285760	prs
 285762	neg
 285780	rel
 285794	rel
@@ -3217,6 +3716,7 @@ tmp
 285837	conj
 285841	rel
 285843	rel
+285848	prs
 285854	neg
 285856	conj
 285861	neg
@@ -3224,12 +3724,14 @@ tmp
 285869	conj
 285878	conj
 285884	neg
-285892	conj
+285891	prs
+conj
 numeral
 285900	neg
 285904	numeral
 285916	rel
 neg
+prs
 285926	numeral
 285930	neg
 285935	conj
@@ -3247,6 +3749,7 @@ numeral
 285996	numeral
 286001	rel
 286004	rel
+286008	prs
 286012	conj
 286035	rel
 286041	conj
@@ -3269,7 +3772,8 @@ numeral
 286193	conj
 286196	numeral
 286199	rel
-286211	numeral
+286210	prs
+numeral
 286214	conj
 286216	rel
 286224	rel
@@ -3279,6 +3783,7 @@ numeral
 286267	neg
 286282	rel
 286293	neg
+286296	prs
 286303	neg
 286311	rel
 286318	conj
@@ -3295,32 +3800,43 @@ numeral
 numeral
 286406	conj
 numeral
+286423	prs
 286425	neg
 286427	conj
 286432	numeral
 286435	conj
 286437	rel
 286453	conj
+286460	prs
 286480	conj
+286487	prs
 286490	conj
+286494	prs
 286500	rel
 286505	numeral
 286507	conj
 numeral
+286515	prs
 286520	neg
 286522	conj
+286525	prs
+286537	prs
 286540	neg
-286550	rel
+286549	prs
+rel
 numeral
 286557	neg
 286561	conj
 286563	rel
 286572	neg
 286576	conj
+286593	prs
 286599	numeral
 286607	rel
 286611	tmp
 numeral
+286618	prs
+286622	prs
 286630	conj
 286636	numeral
 286638	numeral
@@ -3328,14 +3844,17 @@ numeral
 286646	neg
 286648	conj
 286653	conj
+286657	prs
 286660	numeral
 286664	numeral
 286672	numeral
 286676	neg
+286684	prs
 286687	conj
 286691	rel
 286693	neg
 286695	neg
+286700	prs
 286717	neg
 286719	numeral
 286722	conj
@@ -3354,6 +3873,7 @@ numeral
 286797	tmp
 286799	numeral
 286802	rel
+286807	prs
 286812	rel
 286821	conj
 286823	rel
@@ -3390,27 +3910,48 @@ numeral
 287041	neg
 287051	neg
 287057	neg
-287086	neg
+287076	prs
+287085	prs
+neg
 287088	tmp
+287092	prs
 287094	numeral
+287098	prs
 287100	numeral
-287121	neg
+287106	prs
+287109	prs
+287120	prs
+neg
+287124	prs
 287127	numeral
 287130	rel
+287133	prs
+287139	prs
 287148	neg
 287151	rel
+287154	prs
 287157	neg
+287159	prs
+287163	prs
 287166	conj
 287169	rel
+287171	prs
 287182	rel
+287184	prs
+287187	prs
+287195	prs
 287197	conj
+prs
 287200	rel
 287207	numeral
 numeral
+287215	prs
 287224	conj
 287236	conj
+prs
 287242	conj
 287244	rel
+287253	prs
 287257	numeral
 287262	rel
 287266	conj
@@ -3418,11 +3959,13 @@ numeral
 287277	neg
 287280	conj
 287288	neg
+287291	prs
 287298	numeral
 287313	rel
 287318	conj
 287321	neg
 287324	neg
+287328	prs
 287344	conj
 287354	numeral
 287362	conj
@@ -3433,25 +3976,35 @@ numeral
 287395	conj
 numeral
 287400	rel
-287427	conj
+287415	prs
+287426	prs
+conj
+287432	prs
 287456	numeral
-287462	neg
+287459	prs
+287461	prs
+neg
 287480	numeral
 287482	neg
 287485	conj
 287493	conj
 287501	dem
+287506	prs
+287509	prs
 287524	rel
 287532	tmp
 287534	rel
 287543	conj
 287547	neg
+287550	prs
 287552	rel
 287558	neg
 287560	neg
+287566	prs
 287570	neg
 287578	conj
-287580	rel
+prs
+rel
 287589	conj
 287595	neg
 287604	neg
@@ -3459,6 +4012,7 @@ numeral
 287617	rel
 287620	rel
 287624	conj
+287629	prs
 287632	neg
 287639	rel
 287653	rel
@@ -3466,7 +4020,9 @@ numeral
 287668	neg
 287674	neg
 287678	conj
+287684	prs
 287695	conj
+287699	prs
 287704	rel
 287711	conj
 287720	rel
@@ -3483,6 +4039,7 @@ numeral
 287773	neg
 287777	neg
 287780	rel
+287784	prs
 287789	rel
 287810	tmp
 287817	neg
@@ -3499,12 +4056,15 @@ numeral
 287914	tmp
 287916	conj
 287923	rel
+287926	prs
 287928	rel
+prs
 287937	rel
 287944	conj
 287965	conj
 287971	rel
 287982	conj
+prs
 287988	neg
 287993	rel
 287995	numeral
@@ -3560,14 +4120,19 @@ numeral
 288267	rel
 288270	neg
 288272	neg
-288279	conj
+288278	prs
+conj
+prs
 288288	neg
 288290	neg
+288298	prs
 288305	neg
 288308	rel
 288310	numeral
 288313	neg
 288316	rel
+288318	prs
+prs
 288325	numeral
 288332	neg
 288335	neg
@@ -3579,18 +4144,23 @@ numeral
 288369	rel
 288371	neg
 288378	rel
-288388	rel
+288387	prs
+rel
 288391	tmp
 288395	conj
 tmp
 288406	tmp
 288410	conj
 tmp
+288417	prs
+288421	prs
+288428	prs
 288434	numeral
 288440	numeral
 288453	rel
 288456	conj
-288461	neg
+288460	prs
+neg
 288469	neg
 288472	rel
 288476	rel
@@ -3606,9 +4176,11 @@ tmp
 288561	conj
 288573	neg
 288575	neg
+288578	prs
 288580	tmp
 288589	neg
 288595	rel
+288598	prs
 288608	numeral
 288613	conj
 288629	conj
@@ -3617,7 +4189,8 @@ tmp
 288648	conj
 288652	conj
 288659	rel
-288666	numeral
+288665	prs
+numeral
 288669	rel
 288674	rel
 288676	tmp
@@ -3666,6 +4239,7 @@ numeral
 288940	numeral
 numeral
 288990	conj
+288994	prs
 289000	neg
 289007	conj
 289028	conj
@@ -3675,7 +4249,9 @@ numeral
 289055	numeral
 289059	conj
 289070	neg
-289073	conj
+289072	prs
+conj
+289083	prs
 289100	neg
 289102	conj
 289105	rel
@@ -3689,6 +4265,8 @@ numeral
 289130	conj
 289135	numeral
 numeral
+289149	prs
+289154	prs
 289156	rel
 289165	conj
 289167	rel
@@ -3701,6 +4279,8 @@ numeral
 289231	rel
 289247	conj
 289256	conj
+289263	prs
+289267	prs
 289274	rel
 289280	conj
 289289	tmp
@@ -3718,6 +4298,7 @@ numeral
 numeral
 289338	numeral
 289346	numeral
+289351	prs
 289356	neg
 289358	conj
 289361	numeral
@@ -3725,22 +4306,31 @@ numeral
 289369	rel
 289376	numeral
 289378	tmp
+289380	prs
+289384	prs
+289397	prs
 289406	conj
 289408	rel
 289415	neg
+289418	prs
 289438	conj
+289443	prs
 289446	neg
 289448	conj
+289452	prs
 289455	tmp
 289460	conj
 289473	numeral
 289488	conj
 289499	rel
 289506	conj
+289523	prs
 289527	numeral
+289533	prs
 289537	neg
 289541	tmp
 289543	numeral
+289545	prs
 289548	neg
 289560	conj
 289566	rel
@@ -3751,10 +4341,15 @@ numeral
 289585	conj
 289606	conj
 289619	conj
+prs
 289622	rel
 289625	neg
+289630	prs
 289637	neg
+289640	prs
 289650	tmp
+289657	prs
+289663	prs
 289670	conj
 289676	conj
 289679	rel
@@ -3805,6 +4400,7 @@ numeral
 289956	neg
 289961	conj
 289976	conj
+289992	prs
 289997	conj
 290010	numeral
 numeral
@@ -3825,10 +4421,12 @@ numeral
 290166	neg
 290183	numeral
 290186	rel
+290189	prs
 290192	conj
 rel
 numeral
 290201	conj
+290225	prs
 290228	neg
 290251	neg
 290254	conj
@@ -3843,6 +4441,7 @@ numeral
 290301	conj
 290309	rel
 290311	rel
+290318	prs
 290326	rel
 290330	conj
 numeral
@@ -3851,6 +4450,8 @@ numeral
 290340	rel
 290354	numeral
 290357	rel
+290360	prs
+290371	prs
 290380	conj
 290386	conj
 290395	rel
@@ -3876,6 +4477,7 @@ neg
 290533	neg
 290539	conj
 290556	conj
+290592	prs
 290598	rel
 290605	conj
 290609	neg
@@ -3913,6 +4515,7 @@ numeral
 290715	numeral
 290723	conj
 290737	neg
+290753	prs
 290756	rel
 numeral
 290762	neg
@@ -3935,6 +4538,7 @@ numeral
 290835	conj
 290845	conj
 290851	neg
+290854	prs
 290860	tmp
 290868	numeral
 290873	neg
@@ -3953,6 +4557,8 @@ numeral
 290932	tmp
 rel
 290935	rel
+290938	prs
+290943	prs
 290946	rel
 neg
 290963	rel
@@ -3971,6 +4577,7 @@ numeral
 291066	conj
 291087	neg
 291089	tmp
+291099	prs
 291107	conj
 291118	conj
 291130	numeral
@@ -3993,36 +4600,50 @@ numeral
 291275	conj
 291281	conj
 291301	numeral
+291312	prs
 291316	numeral
 291325	numeral
 291328	rel
 291331	conj
+prs
 291345	conj
+291353	prs
 291355	rel
+291363	prs
 291365	rel
 291368	conj
 291372	neg
+291379	prs
 291382	neg
+291387	prs
 291396	numeral
+291398	prs
 291400	neg
 291407	conj
 291411	conj
 291416	rel
+291424	prs
 291439	rel
 291446	rel
 291450	conj
 291467	conj
 291470	tmp
 291486	conj
+291491	prs
 291494	conj
+291501	prs
 291503	neg
+291508	prs
 291512	neg
 291520	rel
+291526	prs
+291530	prs
 291536	rel
 291543	numeral
 291557	conj
 291560	conj
-291570	neg
+291569	prs
+neg
 291581	neg
 291597	tmp
 291601	tmp
@@ -4030,12 +4651,17 @@ numeral
 291606	neg
 291610	rel
 291617	conj
+291622	prs
+291632	prs
+291642	prs
 291645	conj
+291651	prs
 291655	numeral
 291660	conj
 291663	neg
 291682	numeral
 291732	rel
+291736	prs
 291738	numeral
 291742	conj
 291751	conj
@@ -4080,6 +4706,7 @@ numeral
 292031	conj
 292039	conj
 292046	numeral
+292050	prs
 292056	numeral
 292060	numeral
 292082	numeral
@@ -4095,15 +4722,18 @@ numeral
 292187	conj
 292190	rel
 292193	conj
+prs
 292198	conj
 292203	conj
 292205	rel
+292209	prs
 292211	rel
 292225	numeral
 292228	rel
 292234	rel
 292239	conj
-292244	numeral
+292243	prs
+numeral
 292261	conj
 292263	numeral
 292269	numeral
@@ -4122,10 +4752,14 @@ numeral
 rel
 292366	conj
 292371	rel
+292380	prs
+292387	prs
 292399	conj
 292405	rel
 292423	conj
-292434	conj
+292433	prs
+conj
+292451	prs
 292454	rel
 numeral
 292460	conj
@@ -4193,6 +4827,7 @@ numeral
 292814	neg
 292818	conj
 292832	rel
+292835	prs
 292847	conj
 292853	rel
 292864	conj
@@ -4205,6 +4840,7 @@ numeral
 292906	rel
 292916	rel
 292918	rel
+292923	prs
 292931	neg
 292933	neg
 292937	neg
@@ -4224,6 +4860,7 @@ numeral
 293034	rel
 293036	conj
 293046	numeral
+293048	prs
 293057	neg
 293071	rel
 293078	conj
@@ -4233,6 +4870,7 @@ numeral
 293114	neg
 293116	conj
 293118	rel
+prs
 293122	neg
 293131	neg
 293135	neg
@@ -4251,13 +4889,16 @@ numeral
 293246	rel
 293254	rel
 293256	rel
-293260	conj
+293259	prs
+conj
 293265	neg
+293283	prs
 293296	rel
 293299	conj
 293302	rel
 293306	conj
 293312	numeral
+293315	prs
 293320	rel
 293328	rel
 293333	rel
@@ -4270,6 +4911,7 @@ numeral
 293395	conj
 numeral
 293412	numeral
+prs
 293423	rel
 293430	conj
 293451	neg
@@ -4278,9 +4920,13 @@ numeral
 293468	neg
 293472	neg
 293474	numeral
+293477	prs
+prs
+293485	prs
 293487	rel
 293489	neg
 293491	numeral
+293494	prs
 293509	conj
 293530	conj
 293541	neg
@@ -4292,25 +4938,31 @@ numeral
 dem
 293587	conj
 293596	numeral
-293614	neg
+293613	prs
+neg
 293617	neg
 293620	conj
 293630	numeral
 293639	neg
+293642	prs
 293653	rel
 293660	conj
 293667	neg
 293678	neg
 293682	rel
+293684	prs
 293686	conj
-293694	rel
+293693	prs
+rel
 293697	conj
+293700	prs
 293704	rel
 293713	neg
 293717	rel
 293724	conj
 293745	conj
 293750	rel
+293753	prs
 293760	conj
 293773	rel
 293780	conj
@@ -4323,7 +4975,8 @@ dem
 293837	conj
 293846	rel
 293859	rel
-293867	conj
+293866	prs
+conj
 293880	neg
 293891	rel
 293898	conj
@@ -4338,14 +4991,24 @@ neg
 293953	conj
 293955	neg
 293957	neg
+293962	prs
 293965	rel
 293969	conj
+293976	prs
+293979	prs
 293991	rel
 293996	rel
+294004	prs
+294006	prs
+294016	prs
 294025	conj
 294032	neg
+294041	prs
+294045	prs
+294050	prs
 294054	neg
 294056	neg
+294062	prs
 294070	conj
 294105	conj
 294107	tmp
@@ -4354,6 +5017,7 @@ neg
 294134	neg
 294146	neg
 294152	conj
+294157	prs
 294180	conj
 294194	conj
 294200	numeral
@@ -4363,9 +5027,11 @@ neg
 294221	conj
 294223	rel
 294237	neg
+294242	prs
 294244	rel
 294247	conj
 294259	conj
+294264	prs
 294281	conj
 294307	conj
 294316	numeral
@@ -4376,7 +5042,8 @@ neg
 294386	rel
 294393	conj
 294401	numeral
-294409	neg
+294408	prs
+neg
 294412	conj
 294433	conj
 294438	rel
@@ -4386,27 +5053,36 @@ neg
 294465	conj
 294485	conj
 294503	conj
+294506	prs
 294508	conj
 294512	conj
 294529	conj
 294551	conj
-294557	conj
+294556	prs
+conj
+prs
 294567	conj
 294571	conj
+294573	prs
+294577	prs
 294586	tmp
 294588	numeral
 294595	conj
 294600	conj
+294604	prs
 294624	conj
 294634	conj
+294639	prs
 294644	neg
 294647	rel
 294650	neg
 conj
 294658	neg
-294673	numeral
+294672	prs
+numeral
 294675	neg
-294678	rel
+294677	prs
+rel
 294681	tmp
 294684	numeral
 294689	neg
@@ -4436,33 +5112,45 @@ numeral
 294847	neg
 294855	conj
 294859	rel
-294865	neg
+294864	prs
+neg
 294870	rel
+294879	prs
 294890	neg
 294902	conj
+prs
 294906	numeral
 294909	neg
 294919	rel
+294921	prs
 294933	tmp
 294937	rel
 numeral
 294948	conj
-294954	conj
+294953	prs
+conj
 294964	rel
 294968	numeral
 294972	numeral
 294984	neg
+prs
 294987	neg
+294990	prs
+294994	prs
 295003	conj
 295009	conj
 295013	rel
 295015	numeral
 295023	conj
+295027	prs
 295034	conj
 rel
+295039	prs
 295048	conj
+295053	prs
 295061	neg
 295068	neg
+295070	prs
 295080	numeral
 295096	neg
 295112	rel
@@ -4476,26 +5164,31 @@ rel
 295175	neg
 295179	rel
 295185	dem
+295200	prs
 295202	tmp
 295206	conj
 295230	rel
 295236	rel
 295248	conj
+295256	prs
 295264	neg
 295268	neg
 295271	neg
 295274	dem
 rel
+295278	prs
 295280	tmp
 295282	numeral
 295284	tmp
 295287	numeral
 295291	conj
+295295	prs
 295300	neg
 295313	conj
 295326	neg
 295334	conj
 295342	neg
+295351	prs
 295355	neg
 295360	conj
 295364	tmp
@@ -4504,6 +5197,7 @@ rel
 295390	conj
 295392	neg
 295395	conj
+295397	prs
 295405	neg
 295412	numeral
 295418	rel
@@ -4518,6 +5212,7 @@ numeral
 295445	rel
 295450	neg
 295465	rel
+295488	prs
 295515	neg
 295517	conj
 295547	conj
@@ -4546,18 +5241,24 @@ numeral
 295671	rel
 295678	conj
 295683	neg
+295690	prs
 295692	conj
 295698	numeral
+295701	prs
 295705	neg
 295707	conj
+295728	prs
 295742	conj
 295748	numeral
 295756	numeral
 295758	numeral
 295767	neg
+295770	prs
 295773	rel
 295776	neg
+295784	prs
 295792	neg
+prs
 295795	numeral
 295815	numeral
 295822	conj
@@ -4565,14 +5266,20 @@ numeral
 295829	rel
 295832	rel
 295837	conj
+prs
 295861	conj
+295868	prs
+295872	prs
 295886	conj
+295900	prs
 295903	conj
 295923	conj
 295930	conj
 295935	rel
+295939	prs
 295942	conj
 295952	rel
+295958	prs
 295960	rel
 295964	conj
 296000	numeral
@@ -4587,18 +5294,26 @@ numeral
 296037	conj
 296048	neg
 296050	conj
+prs
 296054	neg
 296066	rel
 296074	conj
+296081	prs
+296094	prs
+296102	prs
 296181	rel
+296184	prs
+296192	prs
 296195	conj
 296197	rel
 296199	rel
+296210	prs
 296218	neg
 296221	neg
 296224	numeral
 numeral
 296228	rel
+296241	prs
 296254	conj
 296263	neg
 296265	numeral
@@ -4619,6 +5334,8 @@ numeral
 296400	conj
 296405	conj
 296407	rel
+296412	prs
+296414	prs
 296442	tmp
 296454	rel
 296457	neg
@@ -4629,9 +5346,12 @@ numeral
 296538	neg
 296546	conj
 296564	rel
+296568	prs
 296570	rel
+prs
 296574	conj
 296576	rel
+296582	prs
 296590	neg
 296599	conj
 296603	rel
@@ -4639,11 +5359,13 @@ numeral
 296608	numeral
 numeral
 296616	conj
-296618	numeral
+prs
+numeral
 numeral
 296622	rel
 296624	neg
-296628	dem
+296627	prs
+dem
 296631	rel
 296641	neg
 296645	numeral
@@ -4652,21 +5374,26 @@ numeral
 numeral
 296658	conj
 296661	rel
-296666	neg
+296665	prs
+neg
 296674	neg
-296678	neg
+296677	prs
+neg
 296680	tmp
 296682	conj
 numeral
 296688	conj
 296691	rel
 296699	neg
-296704	numeral
+296702	prs
+prs
+numeral
 296706	numeral
 296708	conj
 numeral
 296753	rel
 296764	rel
+296784	prs
 296786	neg
 296807	numeral
 296813	neg
@@ -4680,8 +5407,10 @@ numeral
 296918	conj
 296920	neg
 296924	rel
+296941	prs
 296944	rel
-296949	tmp
+296948	prs
+tmp
 296956	conj
 296961	conj
 296966	numeral
@@ -4689,17 +5418,25 @@ numeral
 296999	neg
 297007	conj
 297016	rel
+297019	prs
+297025	prs
+297031	prs
 297035	neg
 297041	tmp
 297045	rel
 297051	conj
 297053	rel
+297059	prs
 297062	neg
 297067	rel
+297085	prs
 297088	neg
 297096	neg
+297102	prs
 297109	neg
+297116	prs
 297119	neg
+297122	prs
 297126	rel
 297133	conj
 297143	tmp
@@ -4708,21 +5445,26 @@ numeral
 297180	rel
 297185	rel
 297195	conj
-297204	numeral
+297203	prs
+numeral
 297212	conj
 297215	neg
 297217	neg
-297226	conj
+297225	prs
+conj
 297238	neg
 297248	conj
 297257	rel
 297261	conj
+prs
 297268	neg
 297272	conj
 297274	neg
 297276	conj
+297279	prs
 297284	rel
 297287	conj
+prs
 297292	neg
 297299	neg
 297305	conj
@@ -4734,6 +5476,7 @@ numeral
 297372	rel
 297384	conj
 297401	rel
+297411	prs
 297421	rel
 297425	neg
 297435	numeral
@@ -4752,9 +5495,13 @@ numeral
 297586	rel
 297588	conj
 297596	conj
+297601	prs
 297608	conj
 297614	conj
+297620	prs
 297626	conj
+297630	prs
+297654	prs
 297656	conj
 297669	neg
 297673	conj
@@ -4764,6 +5511,7 @@ numeral
 numeral
 297707	neg
 297710	rel
+297714	prs
 297717	tmp
 297719	numeral
 297729	conj
@@ -4772,21 +5520,29 @@ numeral
 297757	conj
 297776	dem
 297782	neg
+297792	prs
 297795	neg
 297797	tmp
 297820	conj
 297827	rel
+297831	prs
 297835	rel
 297841	rel
 297848	neg
 297854	conj
 297856	neg
 297859	neg
+297867	prs
 297894	conj
+prs
+297899	prs
 297913	conj
+297915	prs
+297917	prs
 297926	neg
 297941	conj
 297951	conj
+prs
 297962	neg
 297964	conj
 297971	neg
@@ -4811,9 +5567,11 @@ numeral
 298157	neg
 298161	neg
 298165	numeral
+298168	prs
 298177	conj
 298199	conj
 298207	rel
+298212	prs
 298217	neg
 298219	conj
 298221	numeral
@@ -4821,10 +5579,14 @@ numeral
 298232	rel
 298248	rel
 298258	conj
-298266	tmp
+298260	prs
+298265	prs
+tmp
 298273	numeral
 298285	neg
 298300	conj
+298308	prs
+298333	prs
 298343	tmp
 298346	numeral
 298350	numeral
@@ -4837,10 +5599,13 @@ rel
 298377	conj
 298382	rel
 298385	rel
-298398	neg
+298397	prs
+neg
 298408	neg
 298410	conj
+298419	prs
 298424	neg
+298427	prs
 298434	neg
 298436	tmp
 298449	numeral
@@ -4851,6 +5616,7 @@ rel
 298466	rel
 298471	conj
 298477	conj
+prs
 298497	conj
 298504	neg
 298515	conj
@@ -4860,6 +5626,7 @@ rel
 298548	tmp
 numeral
 298564	conj
+298571	prs
 298575	numeral
 298582	tmp
 298584	numeral
@@ -4872,9 +5639,13 @@ numeral
 298605	conj
 298608	rel
 298610	numeral
+298621	prs
 298624	neg
+298631	prs
 298639	rel
 298650	conj
+298677	prs
+prs
 298693	neg
 298695	conj
 298699	neg
@@ -4882,6 +5653,7 @@ numeral
 298713	neg
 298720	conj
 298730	rel
+298735	prs
 298737	tmp
 298739	numeral
 298742	conj
@@ -4892,18 +5664,23 @@ numeral
 298769	conj
 298775	tmp
 298780	numeral
+298789	prs
 298793	neg
 298795	numeral
 298799	conj
 298804	conj
 298807	rel
 298811	conj
+prs
 298816	conj
 298818	neg
+298822	prs
 298825	neg
 298840	conj
 298846	conj
 298851	rel
+298854	prs
+298872	prs
 298875	neg
 298877	conj
 298885	neg
@@ -4944,12 +5721,14 @@ numeral
 299135	rel
 299151	conj
 299158	rel
-299162	numeral
+299161	prs
+numeral
 numeral
 299166	numeral
 numeral
 299188	rel
 299200	conj
+299202	prs
 299207	rel
 299228	neg
 299230	conj
@@ -4969,7 +5748,8 @@ rel
 299266	conj
 299268	rel
 299270	neg
-299277	conj
+299276	prs
+conj
 299280	rel
 numeral
 299284	rel
@@ -4992,6 +5772,7 @@ numeral
 numeral
 299350	tmp
 299354	conj
+299356	prs
 299361	conj
 299366	conj
 299371	numeral
@@ -5000,7 +5781,8 @@ numeral
 299392	neg
 299409	conj
 299414	rel
-299416	conj
+prs
+conj
 299422	conj
 299430	neg
 299446	conj
@@ -5008,6 +5790,8 @@ numeral
 299458	conj
 299464	rel
 299491	conj
+299498	prs
+299505	prs
 299511	conj
 299536	rel
 299543	conj
@@ -5029,14 +5813,23 @@ numeral
 299650	conj
 299654	neg
 299663	conj
+299668	prs
+299671	prs
+299679	prs
+299690	prs
 299693	conj
 299698	rel
 299711	rel
+299715	prs
 299719	rel
 299726	neg
 299728	rel
 299734	numeral
+299736	prs
+299740	prs
+299746	prs
 299756	neg
+299759	prs
 299762	neg
 299767	conj
 299773	conj
@@ -5062,11 +5855,16 @@ numeral
 299908	conj
 numeral
 299912	numeral
+299921	prs
+299925	prs
+299930	prs
 299933	neg
 299935	neg
 299938	neg
-299942	neg
+299941	prs
+neg
 299944	conj
+prs
 299947	neg
 299953	rel
 numeral
@@ -5094,40 +5892,57 @@ rel
 300103	rel
 300120	rel
 300139	rel
+300141	prs
 300146	neg
 300161	conj
 300165	neg
 300168	conj
 300182	conj
+300184	prs
 300193	numeral
 300215	rel
 300220	conj
+prs
 300226	neg
 300230	neg
+300235	prs
+300240	prs
 300243	numeral
 300252	tmp
 300276	rel
 300298	neg
 300305	numeral
+300310	prs
+300318	prs
+300321	prs
 300328	tmp
 numeral
 numeral
 300332	rel
-300339	numeral
+300338	prs
+numeral
 numeral
 300342	rel
+300350	prs
+300371	prs
 300380	neg
+300386	prs
 300390	rel
+300396	prs
 300398	conj
 300404	numeral
+300407	prs
 300420	rel
 300422	conj
-300435	numeral
+300434	prs
+numeral
 300438	numeral
 300441	numeral
+300446	prs
 300448	numeral
 300458	numeral
 300477	neg
+300486	prs
 300492	numeral
 300497	numeral
 300501	numeral
@@ -5146,30 +5961,44 @@ numeral
 rel
 tmp
 300592	neg
+300597	prs
 300600	tmp
 300603	rel
 300616	rel
+300630	prs
+300633	prs
 300641	rel
 300655	rel
 300659	neg
 300663	rel
 300672	rel
 300674	neg
+300680	prs
+300688	prs
 300690	rel
 300700	conj
+300702	prs
 300708	conj
+300712	prs
 300743	conj
 300759	neg
 300762	neg
 300774	rel
+300779	prs
+300782	prs
+prs
+300786	prs
 300797	neg
 300802	conj
 300804	conj
 300809	rel
 300811	neg
+300824	prs
 300833	numeral
+300836	prs
 300847	rel
 300864	conj
+300898	prs
 300900	neg
 300914	neg
 300916	conj
@@ -5177,10 +6006,13 @@ tmp
 300944	neg
 300946	neg
 300956	neg
+300960	prs
 300963	neg
+300966	prs
 300970	numeral
 300973	numeral
 300975	conj
+300992	prs
 301007	numeral
 301010	numeral
 numeral
@@ -5191,10 +6023,12 @@ numeral
 301033	neg
 301050	conj
 301054	rel
+301070	prs
 301076	neg
 301079	neg
 301085	conj
-301089	neg
+301088	prs
+neg
 301094	neg
 301099	conj
 301103	rel
@@ -5209,6 +6043,8 @@ numeral
 301182	numeral
 301185	conj
 numeral
+301191	prs
+301201	prs
 301205	numeral
 301208	conj
 numeral
@@ -5218,6 +6054,9 @@ numeral
 301241	dem
 301250	rel
 301255	numeral
+301269	prs
+301283	prs
+301307	prs
 301319	conj
 301345	neg
 301347	conj
@@ -5229,7 +6068,8 @@ numeral
 301396	conj
 301417	conj
 301426	neg
-301430	neg
+301429	prs
+neg
 301438	neg
 301442	neg
 301462	conj
@@ -5243,13 +6083,17 @@ numeral
 301525	neg
 301527	neg
 301548	conj
+301553	prs
 301575	conj
 301581	rel
 301584	rel
 301590	conj
+301594	prs
 301597	rel
-301609	neg
+301608	prs
+neg
 301611	tmp
+301621	prs
 301644	rel
 301648	neg
 301656	conj
@@ -5260,16 +6104,21 @@ numeral
 301696	neg
 301709	conj
 301716	rel
+301730	prs
+301753	prs
 301770	neg
 301775	neg
 301791	rel
+301796	prs
 301799	tmp
 301802	neg
+301806	prs
 301809	neg
 301811	neg
 301813	conj
 301816	conj
 301820	rel
+301823	prs
 301828	neg
 301831	conj
 301835	neg
@@ -5284,6 +6133,7 @@ rel
 numeral
 301880	rel
 301884	neg
+301887	prs
 301893	neg
 301901	rel
 301908	neg
@@ -5299,8 +6149,12 @@ numeral
 301971	neg
 301974	numeral
 neg
+301978	prs
 301980	numeral
 301987	tmp
+301994	prs
+prs
+301997	prs
 302016	neg
 302023	neg
 302034	conj
@@ -5312,20 +6166,28 @@ neg
 numeral
 302090	rel
 302104	conj
-302116	rel
+302115	prs
+rel
 302147	conj
 302153	dem
 rel
-302158	conj
+302157	prs
+conj
+prs
 302161	conj
+302165	prs
 302173	neg
 302175	conj
+prs
 302178	rel
 neg
 302194	rel
+302202	prs
+302206	prs
 302214	numeral
 302217	numeral
 numeral
+302223	prs
 302225	neg
 302228	neg
 302230	conj
@@ -5366,20 +6228,25 @@ numeral
 302465	rel
 302481	conj
 302486	rel
-302488	conj
+prs
+conj
+prs
 302494	tmp
 302502	rel
+302509	prs
 302512	neg
 302515	numeral
 302523	numeral
 302561	dem
 rel
-302569	conj
+302568	prs
+conj
 302572	rel
 302582	rel
 302593	rel
 302597	neg
 302610	rel
+302619	prs
 302627	numeral
 302637	numeral
 302640	numeral
@@ -5406,10 +6273,12 @@ numeral
 302738	conj
 302743	conj
 302767	neg
+302789	prs
 302793	numeral
 rel
 302797	neg
-302810	numeral
+302809	prs
+numeral
 302828	conj
 302837	conj
 302842	conj
@@ -5420,9 +6289,12 @@ rel
 302917	conj
 302953	conj
 302959	rel
+302961	prs
+302967	prs
 302970	rel
 numeral
 302980	rel
+302984	prs
 302989	rel
 302994	rel
 302996	neg
@@ -5436,12 +6308,18 @@ numeral
 303088	conj
 303091	rel
 303096	numeral
-303138	conj
+303131	prs
+303137	prs
+conj
 303142	conj
 303157	conj
 303174	neg
+303209	prs
 303220	conj
 303257	conj
+303261	prs
+prs
+303269	prs
 303273	rel
 303276	conj
 303288	neg
@@ -5450,6 +6328,7 @@ numeral
 303322	rel
 303326	conj
 303330	conj
+303334	prs
 303336	conj
 303349	conj
 303370	neg
@@ -5457,14 +6336,18 @@ numeral
 303384	rel
 303386	rel
 303388	numeral
-303394	numeral
+303393	prs
+numeral
+303396	prs
 303401	conj
 303404	numeral
 303410	rel
 303412	numeral
 303414	rel
 303421	numeral
+303423	prs
 303430	tmp
+303432	prs
 303441	conj
 303445	rel
 303449	conj
@@ -5474,7 +6357,9 @@ numeral
 303469	rel
 303471	numeral
 303474	numeral
+303476	prs
 303483	tmp
+303485	prs
 303489	numeral
 303491	conj
 303494	rel
@@ -5487,6 +6372,7 @@ numeral
 303537	conj
 303539	rel
 303548	rel
+303551	prs
 303554	conj
 303559	rel
 303562	rel
@@ -5508,15 +6394,18 @@ tmp
 303659	conj
 303663	rel
 303668	neg
-303674	neg
+303673	prs
+neg
 303678	rel
 303682	numeral
 303690	rel
 303695	numeral
 303699	rel
+303704	prs
 303707	rel
 303715	numeral
-303722	numeral
+303721	prs
+numeral
 303726	rel
 303732	conj
 303734	rel
@@ -5529,10 +6418,12 @@ tmp
 303783	rel
 303788	rel
 303807	rel
+303810	prs
 303813	rel
 303826	rel
 303838	conj
 303845	rel
+303860	prs
 303862	neg
 303865	rel
 303878	conj
@@ -5547,11 +6438,14 @@ tmp
 303929	conj
 303945	conj
 303952	rel
+303958	prs
 304000	rel
 304003	conj
 304005	rel
+304007	prs
 304012	tmp
-304015	numeral
+304014	prs
+numeral
 304017	conj
 numeral
 304033	conj
@@ -5565,6 +6459,7 @@ numeral
 numeral
 304085	rel
 304090	tmp
+304092	prs
 304102	rel
 304104	rel
 304115	tmp
@@ -5601,11 +6496,13 @@ rel
 304304	numeral
 304310	rel
 304313	neg
+304317	prs
 304334	rel
 304336	rel
 304346	conj
 304348	rel
 304363	tmp
+304366	prs
 304393	conj
 304397	neg
 304408	rel
@@ -5624,13 +6521,16 @@ rel
 304478	rel
 304480	rel
 304483	conj
-304495	neg
+304494	prs
+neg
 304509	numeral
-304514	numeral
+304513	prs
+numeral
 304525	numeral
 304528	neg
 304535	conj
 304549	conj
+304554	prs
 304556	numeral
 304564	rel
 304595	rel
@@ -5643,7 +6543,8 @@ rel
 304644	conj
 304649	rel
 304651	rel
-304663	numeral
+304662	prs
+numeral
 304668	numeral
 304670	conj
 numeral
@@ -5651,7 +6552,8 @@ numeral
 numeral
 304679	numeral
 304682	neg
-304688	numeral
+304687	prs
+numeral
 304693	conj
 304695	neg
 304700	conj
@@ -5661,6 +6563,7 @@ neg
 304718	rel
 304720	rel
 304727	rel
+304730	prs
 304738	rel
 304749	rel
 304764	neg
@@ -5697,6 +6600,7 @@ numeral
 305025	numeral
 numeral
 305029	conj
+305049	prs
 305054	rel
 305056	conj
 305063	neg
@@ -5704,6 +6608,7 @@ numeral
 305070	rel
 305072	conj
 305078	neg
+305080	prs
 305090	conj
 305144	neg
 305158	numeral
@@ -5719,6 +6624,7 @@ numeral
 305189	conj
 305191	numeral
 305194	rel
+305197	prs
 305203	tmp
 305212	tmp
 305225	numeral
@@ -5749,13 +6655,15 @@ numeral
 305381	rel
 305386	conj
 305388	rel
-305391	rel
+305390	prs
+rel
 305399	rel
 305414	rel
 305416	numeral
 305423	rel
 305445	rel
-305456	conj
+305455	prs
+conj
 305464	conj
 305476	neg
 305492	rel
@@ -5784,8 +6692,12 @@ numeral
 305748	rel
 305750	rel
 305753	neg
+305757	prs
 305774	rel
+305786	prs
 305794	conj
+305796	prs
+305801	prs
 305809	conj
 305811	conj
 305835	conj
@@ -5794,6 +6706,7 @@ numeral
 305858	neg
 305862	rel
 305867	neg
+305870	prs
 305879	rel
 305901	conj
 305903	rel
@@ -5828,7 +6741,8 @@ tmp
 306177	numeral
 306184	conj
 306192	rel
-306200	numeral
+306199	prs
+numeral
 numeral
 numeral
 numeral
@@ -5843,6 +6757,7 @@ numeral
 306259	conj
 306261	rel
 306266	rel
+306274	prs
 306284	rel
 306320	conj
 306324	numeral
@@ -5860,6 +6775,7 @@ conj
 rel
 306374	neg
 306376	numeral
+306382	prs
 306385	neg
 306400	neg
 306410	neg
@@ -5868,8 +6784,10 @@ rel
 306431	rel
 306468	rel
 306472	conj
+306476	prs
 306490	conj
-306495	neg
+306494	prs
+neg
 306510	rel
 306514	neg
 306518	neg
@@ -5878,22 +6796,27 @@ rel
 306533	neg
 306549	rel
 306556	neg
+306559	prs
 306563	conj
 306570	conj
 tmp
 306582	numeral
 306587	rel
 306591	rel
+306596	prs
+306599	prs
 306607	conj
 306622	rel
-306633	numeral
+306632	prs
+numeral
 306637	conj
 numeral
 306652	numeral
 306656	conj
 numeral
 306667	numeral
-306672	conj
+306671	prs
+conj
 numeral
 306678	rel
 306688	conj
@@ -5911,13 +6834,15 @@ neg
 306794	neg
 306827	conj
 306837	conj
+306843	prs
 306852	rel
 306877	conj
 306900	conj
 306907	rel
 306909	neg
 306911	conj
-306913	neg
+prs
+neg
 306915	neg
 306932	conj
 306945	conj
@@ -5949,6 +6874,7 @@ numeral
 307082	conj
 307088	rel
 307104	rel
+307107	prs
 307111	rel
 307127	neg
 307132	conj
@@ -5956,8 +6882,12 @@ numeral
 307140	numeral
 307149	rel
 307159	rel
+307175	prs
 307181	conj
+prs
+307189	prs
 307195	neg
+307198	prs
 307208	numeral
 307216	rel
 307225	numeral
@@ -5966,9 +6896,11 @@ numeral
 numeral
 307266	conj
 307273	rel
+307276	prs
 307281	numeral
 307287	numeral
 numeral
+307290	prs
 307292	tmp
 307301	rel
 307307	rel
@@ -5985,6 +6917,7 @@ numeral
 307397	rel
 307419	conj
 307427	conj
+307433	prs
 307439	rel
 307444	numeral
 307456	neg
@@ -5996,9 +6929,11 @@ numeral
 307579	rel
 307593	conj
 307600	conj
+307607	prs
 307614	numeral
 307619	neg
-307629	conj
+307628	prs
+conj
 307633	rel
 307635	conj
 307647	conj
@@ -6018,8 +6953,12 @@ numeral
 307727	rel
 307736	neg
 307749	rel
+307760	prs
+307783	prs
+307799	prs
 307807	conj
 307814	rel
+307817	prs
 307836	tmp
 307856	conj
 307883	numeral
@@ -6027,17 +6966,21 @@ numeral
 307892	numeral
 307897	conj
 307900	neg
+307910	prs
 307912	numeral
 307914	rel
 307921	numeral
 307927	neg
+307931	prs
 307935	rel
 307938	rel
 307945	conj
 307947	rel
 307950	numeral
+307953	prs
 307958	rel
 307965	conj
+307968	prs
 307973	numeral
 307982	rel
 307985	rel
@@ -6047,9 +6990,12 @@ numeral
 numeral
 308004	rel
 308007	rel
+308041	prs
 308043	conj
+308046	prs
 308063	rel
 308065	rel
+308072	prs
 308077	neg
 308083	numeral
 308098	conj
@@ -6058,6 +7004,7 @@ numeral
 308119	neg
 308121	neg
 308139	conj
+308148	prs
 308150	rel
 308156	neg
 308162	rel
@@ -6065,13 +7012,17 @@ numeral
 308227	numeral
 308241	numeral
 308251	numeral
+308260	prs
 308267	conj
 308291	conj
 308295	rel
 308310	conj
 308320	numeral
-308330	numeral
+308329	prs
+numeral
 308336	tmp
+308338	prs
+308344	prs
 308357	tmp
 numeral
 308362	numeral
@@ -6081,6 +7032,7 @@ numeral
 308375	rel
 308387	conj
 308396	rel
+308408	prs
 308411	tmp
 numeral
 308415	conj
@@ -6089,6 +7041,7 @@ numeral
 numeral
 308428	rel
 308434	conj
+308440	prs
 308449	numeral
 numeral
 308460	rel
@@ -6111,6 +7064,7 @@ numeral
 308566	conj
 308572	rel
 308576	rel
+308584	prs
 308598	conj
 308609	conj
 308611	rel
@@ -6123,8 +7077,10 @@ numeral
 numeral
 308662	neg
 308677	rel
+308680	prs
 308682	rel
 308695	neg
+308705	prs
 308710	rel
 308732	neg
 308751	neg
@@ -6134,11 +7090,15 @@ numeral
 308781	rel
 308798	rel
 308806	neg
+308811	prs
 308819	numeral
 308823	numeral
 308846	conj
 308859	conj
+prs
+308867	prs
 308881	rel
+308898	prs
 308903	neg
 308918	conj
 308923	rel
@@ -6149,10 +7109,15 @@ numeral
 308948	numeral
 308951	rel
 308953	rel
-308960	conj
+308958	prs
+prs
+conj
 308972	numeral
-308984	conj
-308986	neg
+308979	prs
+308983	prs
+conj
+prs
+neg
 308990	rel
 309002	tmp
 309005	numeral
@@ -6181,6 +7146,7 @@ numeral
 309214	rel
 309216	neg
 309220	neg
+309227	prs
 309237	conj
 309243	numeral
 309245	numeral
@@ -6195,12 +7161,15 @@ numeral
 309309	rel
 309345	numeral
 309348	rel
-309353	numeral
+309352	prs
+numeral
+309357	prs
 309361	numeral
 309365	conj
 309372	conj
 309384	neg
 309386	tmp
+309395	prs
 309399	conj
 309405	conj
 309409	conj
@@ -6222,11 +7191,13 @@ numeral
 309527	conj
 309544	neg
 309548	rel
+309551	prs
 309553	numeral
 309556	rel
 309558	neg
 309569	conj
 309574	neg
+309577	prs
 309579	conj
 309582	tmp
 309584	conj
@@ -6236,6 +7207,7 @@ numeral
 309600	numeral
 309611	conj
 309617	rel
+309620	prs
 309627	rel
 309635	numeral
 numeral
@@ -6248,16 +7220,23 @@ numeral
 309674	tmp
 309690	conj
 309703	neg
+309715	prs
 309717	conj
 309722	rel
+309726	prs
 309737	rel
-309749	rel
+309746	prs
+309748	prs
+rel
 309752	numeral
 309754	conj
 309765	numeral
+309773	prs
 309776	neg
 309787	neg
 309795	conj
+prs
+309799	prs
 309810	conj
 309820	neg
 309822	neg
@@ -6274,14 +7253,18 @@ numeral
 309890	neg
 309893	rel
 309903	conj
+309909	prs
 309915	conj
 309918	conj
 309927	conj
 309950	conj
 309954	conj
 309956	rel
+309973	prs
 309989	dem
 rel
+prs
+309996	prs
 310002	dem
 310014	dem
 rel
@@ -6291,6 +7274,7 @@ rel
 310039	neg
 310042	conj
 310044	rel
+310051	prs
 310053	numeral
 310061	numeral
 310068	conj
@@ -6301,17 +7285,25 @@ rel
 310099	rel
 310101	neg
 310104	neg
+310108	prs
 310110	conj
 310114	conj
 310137	conj
-310143	conj
-310151	numeral
+310142	prs
+conj
+310150	prs
 numeral
-310161	numeral
+numeral
+310156	prs
+310160	prs
+numeral
 numeral
 310165	neg
 310167	numeral
+310171	prs
+310175	prs
 310187	conj
+310191	prs
 310210	numeral
 numeral
 310220	conj
@@ -6323,11 +7315,15 @@ numeral
 310272	rel
 310278	numeral
 310282	neg
-310296	conj
+310295	prs
+conj
+prs
 310302	conj
 310304	neg
+310310	prs
 310312	rel
-310318	conj
+310317	prs
+conj
 rel
 310327	numeral
 310332	neg
@@ -6338,11 +7334,16 @@ rel
 310356	numeral
 310359	rel
 310361	rel
+310365	prs
+310368	prs
 310371	neg
+310374	prs
 310379	neg
 310382	tmp
 310384	numeral
-310395	conj
+310386	prs
+310394	prs
+conj
 310406	conj
 310414	neg
 310416	conj
@@ -6361,7 +7362,8 @@ rel
 numeral
 310506	conj
 310511	rel
-310550	conj
+310549	prs
+conj
 310559	conj
 310566	neg
 310578	conj
@@ -6373,11 +7375,13 @@ numeral
 310602	neg
 310606	conj
 310608	rel
-310610	conj
+prs
+conj
 310621	conj
 310626	rel
 310628	rel
-310631	numeral
+310630	prs
+numeral
 310635	tmp
 310641	numeral
 310644	rel
@@ -6389,6 +7393,8 @@ numeral
 310707	conj
 310709	rel
 310713	conj
+310716	prs
+310718	prs
 310724	rel
 310733	conj
 310753	neg
@@ -6398,6 +7404,7 @@ numeral
 310791	conj
 310814	neg
 310816	conj
+prs
 310821	neg
 310824	neg
 310826	tmp
@@ -6412,11 +7419,15 @@ numeral
 310880	conj
 310884	rel
 310907	conj
+310935	prs
 310938	rel
 310943	neg
+310951	prs
 310972	conj
 310976	rel
+310979	prs
 310989	neg
+311000	prs
 311005	tmp
 311051	conj
 311057	rel
@@ -6425,6 +7436,7 @@ numeral
 311084	conj
 numeral
 numeral
+311093	prs
 311096	conj
 311102	neg
 311110	conj
@@ -6448,6 +7460,7 @@ numeral
 311230	conj
 rel
 311256	tmp
+311259	prs
 311267	conj
 311288	conj
 311298	numeral
@@ -6455,7 +7468,8 @@ rel
 311306	tmp
 rel
 311312	numeral
-311334	neg
+311333	prs
+neg
 311339	conj
 311343	conj
 311351	conj
@@ -6464,9 +7478,11 @@ rel
 311369	conj
 311390	conj
 311395	rel
-311400	numeral
+311399	prs
+numeral
 numeral
 311423	numeral
+311432	prs
 311439	rel
 311446	conj
 311456	conj
@@ -6475,6 +7491,8 @@ numeral
 311470	conj
 311475	neg
 311478	tmp
+311486	prs
+311497	prs
 311512	neg
 311519	neg
 311521	tmp
@@ -6492,8 +7510,11 @@ neg
 311580	conj
 311587	conj
 311602	tmp
-311607	neg
-311618	neg
+311606	prs
+neg
+311617	prs
+neg
+311621	prs
 311627	numeral
 numeral
 311640	numeral
@@ -6516,7 +7537,8 @@ numeral
 311810	numeral
 311824	rel
 311828	conj
-311839	numeral
+311838	prs
+numeral
 311842	neg
 311849	tmp
 311851	conj
@@ -6534,6 +7556,7 @@ neg
 311929	tmp
 311933	conj
 311935	conj
+311942	prs
 311949	rel
 311951	neg
 311954	tmp
@@ -6544,6 +7567,7 @@ neg
 312008	numeral
 312010	neg
 312018	conj
+prs
 312022	rel
 312031	rel
 312035	neg
@@ -6555,14 +7579,19 @@ neg
 312068	rel
 312074	conj
 312078	rel
+312082	prs
 312084	neg
 312087	rel
 312092	neg
+312105	prs
 312107	conj
 312136	numeral
 312139	rel
 312143	rel
 312147	rel
+312156	prs
+312163	prs
+312178	prs
 312182	rel
 312185	numeral
 312197	neg
@@ -6573,20 +7602,27 @@ neg
 312243	numeral
 numeral
 312251	neg
+312262	prs
 312264	conj
 312277	numeral
 numeral
 312296	rel
-312322	rel
+312321	prs
+rel
+312326	prs
 312336	conj
-312342	numeral
+312341	prs
+numeral
 312346	rel
 312352	numeral
 312359	numeral
-312364	rel
+312363	prs
+rel
 312372	neg
+312376	prs
 312388	conj
 312391	numeral
+312399	prs
 312419	neg
 312430	rel
 312439	neg
@@ -6597,8 +7633,10 @@ neg
 312466	neg
 312472	neg
 312487	rel
+312490	prs
 312492	rel
 312503	conj
+312510	prs
 312512	conj
 312515	rel
 312518	rel
@@ -6609,7 +7647,8 @@ neg
 312537	rel
 312555	rel
 312558	conj
-312566	numeral
+312565	prs
+numeral
 312570	neg
 312588	rel
 312591	conj
@@ -6709,6 +7748,7 @@ rel
 312965	conj
 312968	conj
 312981	rel
+312994	prs
 312999	conj
 313014	numeral
 313018	tmp
@@ -6720,6 +7760,7 @@ numeral
 313044	conj
 313050	tmp
 313052	conj
+313057	prs
 313060	neg
 313068	rel
 313072	numeral
@@ -6732,6 +7773,7 @@ numeral
 313105	rel
 313108	conj
 313113	conj
+313116	prs
 313121	numeral
 numeral
 313125	numeral
@@ -6752,6 +7794,7 @@ rel
 numeral
 313200	neg
 313233	numeral
+313244	prs
 313253	conj
 313259	rel
 313269	numeral
@@ -6771,6 +7814,7 @@ numeral
 313332	conj
 313345	neg
 313347	conj
+313349	prs
 313359	rel
 neg
 313364	conj
@@ -6800,6 +7844,9 @@ numeral
 numeral
 313509	conj
 313511	rel
+313514	prs
+313520	prs
+prs
 313524	tmp
 313536	rel
 313547	conj
@@ -6808,6 +7855,7 @@ numeral
 313597	rel
 313599	neg
 313604	conj
+313607	prs
 313617	numeral
 313619	neg
 313622	neg
@@ -6815,11 +7863,18 @@ numeral
 313633	numeral
 313639	tmp
 313649	conj
+313678	prs
+313681	prs
 313685	neg
 rel
-313707	conj
+313690	prs
+313706	prs
+conj
 313720	neg
+313726	prs
+313734	prs
 313738	neg
+313741	prs
 313750	neg
 313758	conj
 313763	numeral
@@ -6835,8 +7890,10 @@ numeral
 313828	conj
 313835	numeral
 313859	conj
+313863	prs
 313877	rel
 313888	rel
+313894	prs
 313896	rel
 313899	neg
 313901	conj
@@ -6856,6 +7913,7 @@ neg
 313944	numeral
 313967	numeral
 313969	conj
+313981	prs
 313985	rel
 313988	numeral
 313991	neg
@@ -6869,13 +7927,16 @@ neg
 314038	conj
 314045	rel
 314047	numeral
+314056	prs
+314059	prs
 314061	conj
 conj
 314090	conj
 314096	numeral
 314101	neg
 314114	rel
-314119	neg
+314118	prs
+neg
 314123	conj
 314125	rel
 314132	conj
@@ -6904,6 +7965,7 @@ numeral
 314260	conj
 314264	neg
 314268	conj
+prs
 314282	conj
 314286	numeral
 314293	conj
@@ -6919,12 +7981,16 @@ numeral
 numeral
 numeral
 314336	numeral
-314343	conj
+314342	prs
+conj
 314347	conj
 314352	rel
 314361	rel
+314363	prs
 314368	rel
-314374	neg
+314373	prs
+neg
+314378	prs
 314383	conj
 314385	neg
 314401	conj
@@ -6937,16 +8003,23 @@ numeral
 314434	rel
 314443	conj
 314452	rel
-314454	conj
+prs
+conj
+prs
 314459	tmp
 314465	neg
 314475	neg
+314481	prs
 314485	conj
 314491	neg
+prs
 314496	neg
 314505	neg
 314507	conj
-314509	conj
+prs
+conj
+prs
+314515	prs
 314528	numeral
 314533	conj
 314537	rel
@@ -6961,7 +8034,9 @@ neg
 314573	conj
 numeral
 314576	rel
-314586	numeral
+314582	prs
+314585	prs
+numeral
 314607	conj
 314610	tmp
 314615	numeral
@@ -6969,6 +8044,7 @@ numeral
 numeral
 314634	neg
 314644	conj
+314656	prs
 314663	neg
 314665	neg
 314667	tmp
@@ -6985,11 +8061,13 @@ numeral
 314762	neg
 314772	neg
 314774	conj
-314797	numeral
+314796	prs
+numeral
 numeral
 314807	neg
 314809	conj
 314816	neg
+314822	prs
 314824	conj
 314840	rel
 314851	neg
@@ -7002,6 +8080,7 @@ numeral
 314900	conj
 314912	neg
 314916	tmp
+prs
 314922	neg
 314932	rel
 314937	conj
@@ -7011,15 +8090,28 @@ numeral
 314982	rel
 314985	rel
 314987	conj
+314994	prs
 314996	rel
 315008	conj
+315013	prs
 315036	conj
+315048	prs
 315057	conj
+315068	prs
 315073	rel
+315077	prs
+315081	prs
+315087	prs
+prs
+315090	prs
 315095	conj
-315102	neg
+315097	prs
+315100	prs
+prs
+neg
 315119	numeral
 315122	conj
+prs
 315137	neg
 315147	conj
 315151	conj
@@ -7029,50 +8121,65 @@ numeral
 315182	conj
 315189	rel
 315207	neg
+315216	prs
 315220	neg
 315226	tmp
 315232	neg
 315237	neg
-315240	neg
+315239	prs
+neg
 315244	neg
-315247	conj
+315246	prs
+conj
 315256	rel
 315270	neg
 315275	neg
 315278	neg
 315281	conj
 315288	conj
+prs
 315301	neg
 315306	numeral
 315309	rel
 315317	conj
 315324	neg
 315327	numeral
-315337	neg
+315336	prs
+neg
 315343	rel
+315345	prs
+315348	prs
 315354	rel
 315357	rel
 315360	numeral
-315364	neg
+315363	prs
+neg
 315366	neg
 315374	neg
 315377	neg
+315380	prs
 315384	neg
 315394	conj
 315399	rel
 315407	rel
+315412	prs
+315417	prs
 315421	numeral
 numeral
 315425	tmp
 numeral
 315429	conj
+315432	prs
 315436	rel
+315442	prs
 315446	neg
 315450	neg
 315463	rel
 315466	neg
 315472	conj
-315491	conj
+315477	prs
+315490	prs
+conj
 315495	numeral
 315498	rel
 315504	numeral
@@ -7092,6 +8199,7 @@ neg
 315605	neg
 315624	conj
 315654	neg
+315657	prs
 315661	rel
 315672	neg
 315678	neg
@@ -7099,15 +8207,21 @@ neg
 315707	numeral
 315711	conj
 315713	tmp
+315716	prs
 315718	numeral
-315723	numeral
-315729	numeral
+315722	prs
+numeral
+315728	prs
+numeral
 numeral
 315738	neg
-315741	conj
+315740	prs
+conj
 315745	conj
 315747	rel
-315765	neg
+315749	prs
+315764	prs
+neg
 315768	rel
 315779	conj
 315783	rel
@@ -7161,6 +8275,7 @@ numeral
 316119	numeral
 316136	rel
 316143	conj
+316148	prs
 316153	numeral
 numeral
 numeral
@@ -7181,6 +8296,7 @@ numeral
 316230	numeral
 316240	rel
 316244	neg
+316247	prs
 316249	numeral
 316253	rel
 316258	numeral
@@ -7193,6 +8309,7 @@ numeral
 316323	numeral
 316327	rel
 316334	conj
+316342	prs
 316344	numeral
 316349	rel
 316354	neg
@@ -7204,43 +8321,65 @@ numeral
 316406	rel
 316413	conj
 316434	conj
+316448	prs
+316452	prs
 316457	rel
 numeral
+316465	prs
+316468	prs
 316471	tmp
+316477	prs
+316480	prs
+316484	prs
 316487	neg
 316489	neg
 316492	neg
 316500	conj
 316520	conj
 316524	numeral
+316532	prs
 316548	rel
+316556	prs
 316559	neg
 316562	rel
 316564	neg
 316587	conj
 316608	conj
+316617	prs
 316630	numeral
 316633	numeral
 316636	conj
+316640	prs
+316648	prs
+316658	prs
+316663	prs
+316667	prs
 316670	rel
 316672	neg
 316680	conj
 316701	conj
+316719	prs
+316733	prs
 316736	neg
 rel
 316742	conj
+prs
 316750	rel
 316752	neg
 316754	tmp
+316757	prs
 316769	conj
 316774	conj
 316778	conj
+316782	prs
 316792	conj
 numeral
 316798	conj
 316802	conj
+316806	prs
 316808	neg
-316815	rel
+316814	prs
+rel
 316819	neg
 316827	conj
 316837	numeral
@@ -7262,6 +8401,7 @@ numeral
 316922	numeral
 316925	rel
 316931	numeral
+316934	prs
 316939	tmp
 316941	rel
 316953	conj
@@ -7273,7 +8413,8 @@ rel
 316974	neg
 316978	rel
 316986	rel
-316994	neg
+316993	prs
+neg
 317002	conj
 317017	rel
 317023	numeral
@@ -7286,13 +8427,18 @@ rel
 317060	neg
 317063	rel
 317065	rel
+317071	prs
 317075	conj
+317083	prs
 317094	numeral
 317124	conj
 317129	rel
+317132	prs
 317146	conj
+prs
 317152	neg
 317160	neg
+317162	prs
 317169	rel
 317178	neg
 317182	conj
@@ -7312,12 +8458,17 @@ numeral
 317220	conj
 317230	conj
 317237	neg
+317243	prs
 317247	rel
 317261	rel
 numeral
 317272	rel
 317283	rel
 317285	rel
+317288	prs
+317291	prs
+317301	prs
+317303	prs
 317319	neg
 317322	conj
 numeral
@@ -7325,9 +8476,11 @@ numeral
 317337	neg
 317350	rel
 317363	numeral
+317368	prs
 317377	tmp
 317383	neg
 317390	neg
+317393	prs
 317395	numeral
 317401	neg
 317409	conj
@@ -7342,14 +8495,17 @@ numeral
 317473	neg
 317484	neg
 317487	neg
+317492	prs
 317497	neg
 317503	neg
 317505	conj
 317512	neg
+317517	prs
 317522	neg
 317529	neg
 317537	conj
 317555	tmp
+317558	prs
 317569	rel
 317587	tmp
 317590	numeral
@@ -7358,20 +8514,24 @@ numeral
 317598	neg
 317608	conj
 317620	neg
-317647	neg
+317646	prs
+neg
 317653	conj
 317675	conj
 317677	conj
 317686	neg
-317694	conj
+317693	prs
+conj
 317698	numeral
 317703	numeral
+317715	prs
 317717	numeral
 317732	conj
 317739	numeral
 317743	neg
 317745	numeral
 317751	neg
+317757	prs
 317763	numeral
 317766	conj
 numeral
@@ -7385,6 +8545,7 @@ numeral
 317809	conj
 317816	rel
 317819	conj
+317827	prs
 317832	numeral
 317868	conj
 317871	numeral
@@ -7406,12 +8567,16 @@ neg
 317967	conj
 317974	conj
 317978	rel
-317980	conj
+prs
+conj
+prs
 317985	conj
 317992	tmp
 317998	dem
 318001	numeral
+318003	prs
 318015	conj
+prs
 318021	rel
 318026	rel
 318029	conj
@@ -7423,6 +8588,7 @@ neg
 318072	rel
 318080	neg
 318082	neg
+318085	prs
 318092	neg
 318096	neg
 318101	neg
@@ -7454,6 +8620,7 @@ numeral
 318206	rel
 318209	rel
 318223	rel
+318230	prs
 318244	rel
 318251	conj
 318255	rel
@@ -7469,10 +8636,16 @@ numeral
 318354	conj
 318359	rel
 318361	neg
+318368	prs
 318384	conj
+318392	prs
 318394	conj
 318398	rel
-318420	conj
+318406	prs
+318414	prs
+318419	prs
+conj
+318422	prs
 318440	conj
 318449	rel
 318452	rel
@@ -7481,14 +8654,17 @@ numeral
 318470	dem
 318474	neg
 318482	conj
-318491	numeral
+318490	prs
+numeral
 318495	conj
+318499	prs
 318501	rel
 318504	neg
 318507	tmp
 318515	rel
 318522	conj
 318533	rel
+318542	prs
 318553	neg
 318560	conj
 318566	numeral
@@ -7528,6 +8704,7 @@ numeral
 318803	conj
 318805	rel
 318811	neg
+318828	prs
 318871	conj
 318876	neg
 318878	tmp
@@ -7545,7 +8722,8 @@ numeral
 318935	rel
 numeral
 318941	numeral
-318945	rel
+318944	prs
+rel
 numeral
 318948	numeral
 numeral
@@ -7558,6 +8736,7 @@ numeral
 318983	neg
 318985	numeral
 319018	conj
+319023	prs
 319040	conj
 319059	numeral
 319062	numeral
@@ -7571,6 +8750,7 @@ numeral
 319118	rel
 319128	neg
 319130	neg
+319139	prs
 319153	conj
 319169	numeral
 319175	numeral
@@ -7578,10 +8758,13 @@ numeral
 319186	neg
 319193	rel
 numeral
+319197	prs
 319201	conj
 319218	conj
+319220	prs
 319225	neg
 319238	conj
+319245	prs
 319250	neg
 319252	tmp
 319255	numeral
@@ -7620,6 +8803,7 @@ numeral
 319473	neg
 319475	neg
 319480	conj
+prs
 319484	numeral
 319498	rel
 319503	rel
@@ -7634,6 +8818,7 @@ numeral
 319559	conj
 numeral
 numeral
+319583	prs
 319603	neg
 319615	neg
 319623	conj
@@ -7649,6 +8834,7 @@ numeral
 319659	rel
 319677	conj
 319682	rel
+319686	prs
 319692	tmp
 319696	rel
 319700	neg
@@ -7665,20 +8851,24 @@ numeral
 319757	numeral
 319760	neg
 319770	rel
-319772	conj
+prs
+conj
 319794	conj
 319798	numeral
 319801	rel
 319804	rel
+319810	prs
 319834	conj
 319836	rel
 319869	conj
 319871	rel
+319882	prs
 319914	rel
 319935	conj
 319937	rel
 319964	conj
 319972	rel
+prs
 319979	rel
 319987	numeral
 319992	rel
@@ -7686,6 +8876,7 @@ numeral
 320003	numeral
 320005	numeral
 320012	conj
+320014	prs
 320017	conj
 320019	rel
 320021	neg
@@ -7696,6 +8887,7 @@ numeral
 320073	conj
 320078	dem
 rel
+320082	prs
 320106	conj
 320119	rel
 320125	neg
@@ -7736,22 +8928,30 @@ neg
 320442	conj
 320455	neg
 320460	neg
-320463	neg
+320462	prs
+neg
 320468	neg
+320477	prs
 320486	rel
 320488	rel
 320499	conj
 320505	rel
 320512	conj
-320531	neg
+320530	prs
+neg
 320542	neg
+320544	prs
 320554	conj
 320562	conj
 320572	neg
+320579	prs
 320583	neg
+320588	prs
+320595	prs
 320598	numeral
 320607	conj
 320610	rel
+320613	prs
 320628	rel
 320630	conj
 320633	tmp
@@ -7785,12 +8985,16 @@ numeral
 320816	rel
 320823	conj
 320829	rel
+320833	prs
 320836	neg
+320838	prs
 320842	dem
 320845	numeral
+320852	prs
 320856	rel
 320864	numeral
-320867	numeral
+320866	prs
+numeral
 320877	conj
 320882	rel
 320893	conj
@@ -7808,11 +9012,13 @@ numeral
 320996	neg
 321000	rel
 321004	numeral
+321016	prs
 321022	rel
 321030	neg
 321032	rel
 321039	conj
 321047	numeral
+321067	prs
 321070	rel
 321075	neg
 321090	tmp
@@ -7834,9 +9040,11 @@ numeral
 321258	neg
 321260	tmp
 321265	numeral
+321270	prs
 321305	neg
 321324	conj
 321326	numeral
+321333	prs
 321340	conj
 rel
 321345	conj
@@ -7846,6 +9054,8 @@ rel
 321360	neg
 321362	numeral
 321368	conj
+prs
+321376	prs
 321379	conj
 321391	tmp
 numeral
@@ -7866,6 +9076,7 @@ numeral
 321459	rel
 321461	numeral
 321464	neg
+321485	prs
 321487	neg
 321491	neg
 321495	dem
@@ -7880,6 +9091,7 @@ numeral
 321565	tmp
 321567	conj
 321572	rel
+321579	prs
 321591	conj
 321597	conj
 321603	rel
@@ -7891,7 +9103,9 @@ numeral
 321647	conj
 321650	neg
 321655	rel
+prs
 321670	rel
+321672	prs
 321679	conj
 321687	conj
 321691	numeral
@@ -7906,6 +9120,7 @@ numeral
 321741	tmp
 321746	rel
 321753	conj
+321762	prs
 321769	numeral
 321780	neg
 321791	neg
@@ -7919,14 +9134,18 @@ numeral
 numeral
 321847	rel
 321859	neg
+321892	prs
 321901	numeral
-321905	conj
+321904	prs
+conj
 321919	conj
 321925	numeral
 321928	rel
 321930	numeral
 321940	conj
+321947	prs
 321953	tmp
+prs
 321956	conj
 321963	rel
 numeral
@@ -7938,7 +9157,9 @@ numeral
 322014	conj
 322020	rel
 322033	numeral
+322035	prs
 322039	conj
+322047	prs
 322058	tmp
 322063	conj
 numeral
@@ -7946,7 +9167,8 @@ numeral
 322106	rel
 322108	conj
 322117	conj
-322129	conj
+322128	prs
+conj
 tmp
 322141	neg
 322145	rel
@@ -7955,11 +9177,14 @@ tmp
 322157	rel
 322160	conj
 322162	numeral
-322169	neg
+322168	prs
+neg
 322171	neg
 322183	rel
 322186	neg
+322188	prs
 322191	dem
+322205	prs
 322228	tmp
 322231	numeral
 322236	numeral
@@ -7968,13 +9193,15 @@ tmp
 322270	neg
 322278	conj
 322285	rel
-322289	numeral
+322288	prs
+numeral
 322304	rel
 322308	tmp
 322311	conj
 numeral
 322315	rel
 322320	rel
+322322	prs
 322325	conj
 322332	rel
 322335	neg
@@ -7986,6 +9213,7 @@ numeral
 322366	rel
 322374	conj
 322381	rel
+322390	prs
 322392	neg
 322394	tmp
 322412	conj
@@ -8011,10 +9239,15 @@ rel
 322584	conj
 322599	neg
 322602	rel
+322619	prs
 322628	numeral
 rel
+322632	prs
 322641	conj
+322646	prs
+322666	prs
 322691	rel
+322693	prs
 322696	numeral
 322698	numeral
 322702	rel
@@ -8078,15 +9311,20 @@ numeral
 323061	rel
 323068	neg
 323070	conj
+323074	prs
 323110	rel
 323112	neg
+323115	prs
 323124	neg
+323134	prs
+323140	prs
 323150	rel
 323157	conj
 323163	conj
 323173	numeral
 numeral
 323183	conj
+prs
 323186	tmp
 numeral
 323197	numeral
@@ -8094,6 +9332,7 @@ numeral
 323221	rel
 323228	conj
 323234	rel
+323238	prs
 323246	neg
 323250	numeral
 323253	rel
@@ -8101,36 +9340,45 @@ numeral
 323269	neg
 323273	rel
 323280	conj
+323291	prs
 323294	rel
 323298	rel
-323303	tmp
+323302	prs
+tmp
 323317	conj
+323326	prs
 323328	rel
 323330	conj
 323332	rel
-323338	neg
+323337	prs
+neg
 323359	conj
+323371	prs
 323378	numeral
 323382	numeral
 323386	rel
 323419	rel
 323431	neg
 323433	neg
+323436	prs
 323444	rel
 323446	conj
 323448	rel
 323453	numeral
 323455	numeral
-323464	numeral
+323463	prs
+numeral
 323476	rel
 323486	rel
 323492	conj
 323515	numeral
 323518	tmp
+323524	prs
 323534	neg
 323537	neg
 323548	conj
-323553	numeral
+323552	prs
+numeral
 numeral
 323556	conj
 323558	numeral
@@ -8148,12 +9396,17 @@ numeral
 323621	numeral
 323633	conj
 323646	conj
+323651	prs
+323654	prs
+323672	prs
 323675	conj
 323691	conj
 323718	numeral
 323728	conj
 323732	conj
-323755	conj
+323754	prs
+conj
+prs
 323805	rel
 323823	tmp
 323825	numeral
@@ -8165,10 +9418,14 @@ numeral
 323895	neg
 323902	conj
 323921	tmp
+323926	prs
+323932	prs
 323934	neg
 323957	conj
+323961	prs
 323964	neg
 323975	conj
+prs
 323982	rel
 323990	conj
 324006	rel
@@ -8176,6 +9433,7 @@ numeral
 324017	rel
 324022	conj
 324028	rel
+324033	prs
 324036	tmp
 324041	neg
 324052	neg
@@ -8185,13 +9443,16 @@ numeral
 324075	tmp
 324085	rel
 numeral
+324094	prs
 324103	neg
 324105	conj
 324108	neg
 324112	conj
 324118	conj
+324125	prs
 324128	numeral
-324142	conj
+324141	prs
+conj
 324154	conj
 324158	numeral
 324170	conj
@@ -8199,17 +9460,21 @@ numeral
 324193	rel
 numeral
 324200	neg
+324203	prs
 324205	numeral
 324208	rel
 324214	numeral
 324227	rel
+prs
 324237	conj
 324243	rel
 324245	rel
 324251	rel
 324278	numeral
-324293	neg
+324292	prs
+neg
 324305	conj
+324314	prs
 324326	numeral
 324328	numeral
 324338	rel
@@ -8220,11 +9485,15 @@ rel
 324359	rel
 324362	conj
 324372	conj
+324381	prs
 324390	neg
+324395	prs
 324399	rel
 324401	neg
 324403	neg
+324406	prs
 324411	rel
+324424	prs
 324437	rel
 324446	conj
 324454	conj
@@ -8235,12 +9504,15 @@ rel
 324492	conj
 324500	conj
 numeral
+324511	prs
 324516	neg
 324520	rel
 324524	conj
 324526	rel
+324529	prs
 324540	numeral
 324577	neg
+324579	prs
 324587	neg
 324593	neg
 324598	neg
@@ -8255,6 +9527,7 @@ numeral
 324704	rel
 324715	neg
 324717	rel
+324723	prs
 324730	conj
 324733	conj
 324744	numeral
@@ -8268,22 +9541,27 @@ numeral
 324800	conj
 324806	rel
 324813	numeral
+324821	prs
 324823	rel
 324826	neg
 324831	neg
 324837	rel
 324845	rel
 324848	conj
-324872	conj
+324871	prs
+conj
+324884	prs
 324889	neg
 324916	neg
 324922	conj
+prs
 324926	numeral
 324929	rel
 324934	conj
 324946	numeral
 324953	rel
 324959	conj
+324972	prs
 324986	neg
 324988	conj
 324993	neg
@@ -8292,9 +9570,12 @@ numeral
 325026	rel
 325033	conj
 325051	conj
+325059	prs
 325063	rel
 325073	conj
 325075	rel
+325089	prs
+325095	prs
 325106	conj
 325108	numeral
 325114	tmp
@@ -8304,6 +9585,7 @@ numeral
 325173	tmp
 325175	neg
 325177	tmp
+325179	prs
 325182	rel
 325196	neg
 325209	conj
@@ -8319,7 +9601,9 @@ numeral
 325331	rel
 325334	conj
 325340	conj
+prs
 325355	neg
+325357	prs
 325364	rel
 325375	rel
 325379	conj
@@ -8351,7 +9635,10 @@ numeral
 325563	rel
 325568	neg
 325572	rel
+325584	prs
+325594	prs
 325596	numeral
+325599	prs
 325629	conj
 325646	rel
 325655	rel
@@ -8360,6 +9647,7 @@ numeral
 325681	conj
 325702	neg
 325708	rel
+325721	prs
 325724	rel
 325727	neg
 325733	rel
@@ -8383,6 +9671,7 @@ numeral
 325874	conj
 325876	neg
 325885	conj
+325891	prs
 325903	conj
 325909	conj
 325914	neg
@@ -8391,14 +9680,19 @@ numeral
 325937	rel
 325954	rel
 325967	rel
+325978	prs
+325984	prs
 325988	rel
 325990	neg
 326000	neg
 326008	conj
+326022	prs
 326031	conj
 326037	rel
 326041	tmp
 326043	conj
+326050	prs
+326057	prs
 326067	conj
 326073	conj
 326078	rel
@@ -8409,25 +9703,34 @@ numeral
 326130	numeral
 326139	rel
 326152	conj
+326169	prs
 326171	neg
+326175	prs
 326182	rel
+prs
 326207	conj
 326213	rel
+326216	prs
 326237	conj
+326277	prs
 326302	numeral
 326305	conj
 326307	rel
 326313	numeral
 326315	numeral
 326322	neg
-326327	rel
-326330	neg
+326326	prs
+rel
+326329	prs
+neg
 326335	neg
 326337	conj
-326346	neg
+326345	prs
+neg
 326348	neg
 326364	neg
-326370	neg
+326369	prs
+neg
 326377	tmp
 neg
 326380	numeral
@@ -8438,6 +9741,7 @@ neg
 326419	conj
 326421	rel
 326423	neg
+326426	prs
 326428	rel
 326433	conj
 326438	neg
@@ -8453,7 +9757,10 @@ neg
 numeral
 326514	conj
 326528	conj
-326534	conj
+326533	prs
+conj
+prs
+326542	prs
 326546	tmp
 tmp
 326549	conj
@@ -8469,7 +9776,8 @@ numeral
 326601	numeral
 326604	rel
 326624	rel
-326629	conj
+326628	prs
+conj
 326637	numeral
 326655	neg
 326657	conj
@@ -8479,15 +9787,19 @@ numeral
 326678	conj
 326680	rel
 326685	numeral
+326693	prs
 326705	neg
 326710	numeral
 326714	rel
 326759	neg
+326770	prs
 326772	numeral
 326774	rel
 326795	conj
 326819	numeral
+326823	prs
 326828	numeral
+326832	prs
 326834	rel
 326839	neg
 326853	rel
@@ -8507,6 +9819,7 @@ numeral
 326944	conj
 326947	numeral
 326956	neg
+326970	prs
 326976	numeral
 numeral
 326981	rel
@@ -8524,13 +9837,16 @@ numeral
 327100	conj
 327134	rel
 327153	neg
+327155	prs
 327167	numeral
 327174	neg
 327183	rel
 327185	rel
 327206	numeral
+327209	prs
 327217	neg
 327227	rel
+327234	prs
 327237	neg
 327244	neg
 327246	neg
@@ -8551,16 +9867,22 @@ numeral
 327346	tmp
 numeral
 numeral
+327357	prs
 327359	rel
+327366	prs
 327397	numeral
 numeral
+327401	prs
 327405	neg
 327407	conj
+prs
 327425	numeral
 numeral
-327431	rel
+327430	prs
+rel
 327453	numeral
-327464	conj
+327463	prs
+conj
 327470	neg
 327481	conj
 327484	numeral
@@ -8569,17 +9891,23 @@ numeral
 numeral
 numeral
 327501	rel
+327511	prs
 327520	neg
 327524	neg
+327527	prs
 327532	rel
 tmp
+327564	prs
+327570	prs
 327576	tmp
 327593	neg
 327595	conj
+327610	prs
 327622	numeral
 327633	neg
 327636	numeral
 327639	rel
+327649	prs
 327654	numeral
 327669	rel
 327680	conj
@@ -8594,30 +9922,37 @@ tmp
 327770	numeral
 327785	rel
 327787	rel
+327789	prs
 327793	neg
 327801	neg
 327812	conj
 327817	conj
 327821	rel
+327827	prs
 327829	conj
 327847	conj
 327854	rel
 327858	rel
+327865	prs
 327872	numeral
 327876	rel
 327885	neg
 327895	neg
+327914	prs
 327933	rel
 327940	rel
+327946	prs
 327961	dem
 327964	neg
+327966	prs
 327985	numeral
 327997	tmp
 328011	rel
 328018	neg
 328048	conj
 328076	numeral
-328096	numeral
+328095	prs
+numeral
 numeral
 328105	numeral
 328107	rel
@@ -8630,7 +9965,8 @@ numeral
 328141	rel
 328144	conj
 328149	conj
-328163	neg
+328162	prs
+neg
 328166	conj
 328170	conj
 328172	rel
@@ -8638,15 +9974,18 @@ numeral
 328186	conj
 328191	rel
 328195	neg
+328197	prs
 328201	rel
 328205	numeral
 328210	numeral
+328219	prs
 328226	conj
 328231	conj
 328240	conj
 328258	neg
 328262	rel
 328269	conj
+328290	prs
 328295	neg
 328310	neg
 328327	neg
@@ -8657,8 +9996,11 @@ numeral
 328365	conj
 numeral
 328372	conj
+328387	prs
 328411	neg
 328417	neg
+328433	prs
+328456	prs
 328479	rel
 328488	neg
 328538	conj
@@ -8670,20 +10012,24 @@ numeral
 numeral
 328596	numeral
 328614	conj
+328632	prs
 328637	neg
 328641	neg
 328643	conj
 328653	conj
 328661	rel
 328664	conj
-328676	neg
+328675	prs
+neg
 328689	neg
 328693	neg
 328695	numeral
 numeral
 328708	neg
-328722	neg
+328721	prs
+neg
 328725	rel
+328729	prs
 328746	neg
 328754	conj
 328768	neg
@@ -8712,10 +10058,13 @@ numeral
 328923	neg
 328964	rel
 328967	conj
+328977	prs
 328981	conj
-328997	numeral
+328996	prs
+numeral
 329000	rel
 329006	conj
+329012	prs
 329016	neg
 329026	neg
 329043	rel
@@ -8723,6 +10072,7 @@ numeral
 329063	dem
 329069	neg
 329072	conj
+329075	prs
 329077	neg
 329079	rel
 329084	rel
@@ -8746,12 +10096,18 @@ numeral
 numeral
 rel
 329180	neg
+prs
+329184	prs
 329189	neg
 329200	conj
 329207	conj
 329216	rel
+329218	prs
+329237	prs
+329250	prs
 329264	conj
 tmp
+329269	prs
 329285	conj
 329289	neg
 329300	conj
@@ -8767,6 +10123,7 @@ numeral
 numeral
 329339	rel
 329341	neg
+329348	prs
 329351	rel
 329356	numeral
 329365	conj
@@ -8775,7 +10132,9 @@ numeral
 329388	rel
 329392	tmp
 329394	numeral
-329401	neg
+329400	prs
+neg
+329405	prs
 329407	conj
 329419	dem
 rel
@@ -8804,6 +10163,7 @@ numeral
 329561	neg
 329563	tmp
 329568	conj
+329575	prs
 329578	rel
 329582	rel
 329585	numeral
@@ -8814,6 +10174,7 @@ numeral
 329621	numeral
 329631	rel
 329637	neg
+329640	prs
 329647	neg
 329659	conj
 rel
@@ -8823,6 +10184,7 @@ numeral
 329679	rel
 329691	conj
 329705	numeral
+329720	prs
 329726	numeral
 329731	tmp
 329734	numeral
@@ -8849,9 +10211,11 @@ numeral
 329884	neg
 329886	conj
 329894	neg
+329897	prs
 329901	conj
 329904	neg
 329906	conj
+329910	prs
 329914	rel
 329920	numeral
 329923	tmp
@@ -8889,9 +10253,12 @@ numeral
 330112	neg
 330120	numeral
 330135	rel
+330138	prs
 330147	conj
 330156	rel
-330170	conj
+330169	prs
+conj
+prs
 330178	rel
 neg
 330182	neg
@@ -8901,6 +10268,7 @@ neg
 330203	rel
 330208	conj
 330215	rel
+330219	prs
 330226	neg
 330228	conj
 330238	neg
@@ -8923,9 +10291,12 @@ neg
 330374	numeral
 330379	conj
 330384	conj
+prs
+330394	prs
 330409	numeral
 330432	rel
 330436	rel
+330440	prs
 330445	conj
 330447	rel
 330454	neg
@@ -8955,8 +10326,11 @@ numeral
 330608	neg
 330610	numeral
 330614	conj
+330633	prs
 330637	conj
+330643	prs
 330646	neg
+330656	prs
 330677	conj
 330682	rel
 330691	conj
@@ -8968,6 +10342,7 @@ numeral
 numeral
 330726	numeral
 330734	rel
+330739	prs
 330741	neg
 330744	numeral
 330746	rel
@@ -8979,6 +10354,7 @@ numeral
 330805	conj
 330810	numeral
 numeral
+330819	prs
 330823	numeral
 numeral
 330833	neg
@@ -8986,7 +10362,8 @@ numeral
 330868	neg
 330872	rel
 330874	rel
-330877	rel
+330876	prs
+rel
 330880	neg
 330887	rel
 330890	conj
@@ -9016,7 +10393,9 @@ numeral
 331029	rel
 331032	conj
 331039	conj
-331064	neg
+331055	prs
+331063	prs
+neg
 331066	rel
 331068	rel
 331074	rel
@@ -9026,8 +10405,10 @@ numeral
 331102	neg
 331113	conj
 331122	numeral
+331127	prs
 331131	neg
 331133	conj
+331137	prs
 331141	neg
 331145	rel
 331152	conj
@@ -9072,6 +10453,7 @@ numeral
 331383	neg
 331391	conj
 331399	rel
+331405	prs
 331420	neg
 331422	tmp
 331424	neg
@@ -9083,7 +10465,8 @@ numeral
 331444	conj
 331451	neg
 331457	tmp
-331463	conj
+331462	prs
+conj
 rel
 331470	neg
 331475	rel
@@ -9108,6 +10491,7 @@ numeral
 331612	neg
 331615	rel
 331619	neg
+331625	prs
 331636	conj
 331638	rel
 331640	rel
@@ -9131,13 +10515,16 @@ numeral
 numeral
 331758	neg
 331770	rel
+331775	prs
 331777	conj
 331783	neg
 331787	conj
 331789	rel
 331802	numeral
 331806	numeral
-331811	numeral
+prs
+331810	prs
+numeral
 numeral
 331814	numeral
 331817	rel
@@ -9149,12 +10536,15 @@ numeral
 331840	conj
 331856	conj
 331859	conj
+prs
 331871	tmp
 331883	conj
+prs
 331902	numeral
 331904	numeral
 331923	conj
-331930	neg
+331929	prs
+neg
 331934	conj
 331940	neg
 331943	numeral
@@ -9166,6 +10556,7 @@ numeral
 331988	neg
 331992	neg
 331994	neg
+332002	prs
 332006	conj
 332010	rel
 332012	neg
@@ -9180,6 +10571,8 @@ numeral
 332063	conj
 332068	tmp
 332071	numeral
+332074	prs
+332078	prs
 332086	numeral
 332095	conj
 332102	rel
@@ -9189,6 +10582,7 @@ numeral
 332142	rel
 332148	numeral
 332170	conj
+332184	prs
 332196	conj
 332209	conj
 332233	conj
@@ -9208,6 +10602,7 @@ numeral
 332347	conj
 332356	tmp
 332364	conj
+332372	prs
 332375	conj
 332377	tmp
 332379	numeral
@@ -9215,12 +10610,17 @@ numeral
 332393	tmp
 332407	numeral
 332415	neg
+332421	prs
 332423	rel
 332425	neg
-332441	conj
+332440	prs
+conj
+prs
+332448	prs
 332453	numeral
 332455	numeral
 332457	tmp
+332459	prs
 332462	neg
 332466	numeral
 332468	numeral
@@ -9229,6 +10629,7 @@ numeral
 numeral
 332481	rel
 332488	conj
+332492	prs
 332500	conj
 332505	conj
 332515	rel
@@ -9238,6 +10639,7 @@ numeral
 332550	numeral
 332553	rel
 332560	rel
+332575	prs
 332578	rel
 332582	neg
 332584	conj
@@ -9270,6 +10672,7 @@ numeral
 332795	neg
 332803	conj
 332809	rel
+332812	prs
 332819	neg
 332825	neg
 332844	numeral
@@ -9279,7 +10682,9 @@ numeral
 numeral
 332865	conj
 332871	conj
-332883	conj
+332880	prs
+332882	prs
+conj
 332887	conj
 332890	conj
 332892	conj
@@ -9287,7 +10692,9 @@ numeral
 numeral
 332901	neg
 332903	conj
+332913	prs
 332915	rel
+332917	prs
 332924	neg
 332931	conj
 332934	rel
@@ -9298,7 +10705,8 @@ numeral
 332956	conj
 numeral
 332964	neg
-332969	conj
+332968	prs
+conj
 332991	conj
 332994	tmp
 332996	conj
@@ -9321,16 +10729,22 @@ numeral
 333092	rel
 333097	numeral
 333105	conj
+333111	prs
 333116	neg
 333118	conj
 333121	neg
+333134	prs
 333136	numeral
 333145	tmp
 333148	numeral
 333154	rel
 333161	conj
+333166	prs
+333171	prs
 333174	rel
-333182	conj
+333181	prs
+conj
+prs
 333187	dem
 333217	rel
 333219	rel
@@ -9339,11 +10753,14 @@ numeral
 333251	conj
 333260	rel
 333271	numeral
+333273	prs
 333282	conj
 333296	neg
 333302	rel
-333308	rel
+333307	prs
+rel
 333319	numeral
+333323	prs
 333328	conj
 333334	conj
 333341	conj
@@ -9367,6 +10784,7 @@ numeral
 333446	neg
 333451	neg
 333462	rel
+333467	prs
 333477	rel
 333487	conj
 333504	rel
@@ -9380,11 +10798,14 @@ numeral
 333582	numeral
 333590	neg
 333602	rel
+333604	prs
+333606	prs
 333619	conj
 333633	conj
 333637	tmp
 numeral
-333641	numeral
+333640	prs
+numeral
 333646	conj
 333649	neg
 333657	conj
@@ -9409,6 +10830,7 @@ numeral
 333814	rel
 neg
 333820	conj
+333827	prs
 333830	numeral
 333855	numeral
 333860	neg
@@ -9418,11 +10840,13 @@ neg
 333882	conj
 333888	neg
 333895	neg
+333898	prs
 333934	dem
 333936	conj
 333940	tmp
 333944	neg
 333953	conj
+333962	prs
 333964	rel
 333968	rel
 333970	dem
@@ -9436,15 +10860,23 @@ numeral
 333982	rel
 333990	tmp
 333994	rel
+prs
 333998	conj
 334001	neg
 334013	rel
 334015	rel
+334017	prs
+334026	prs
+334033	prs
 334038	neg
 334043	neg
 334053	rel
 334060	conj
+334065	prs
 334074	conj
+334115	prs
+334118	prs
+334132	prs
 334136	conj
 334146	rel
 334149	conj
@@ -9494,20 +10926,25 @@ numeral
 334333	rel
 334339	neg
 334341	neg
-334353	numeral
+334352	prs
+numeral
 334362	tmp
 334365	numeral
 334371	conj
 334379	rel
 334383	neg
+334389	prs
 334399	neg
 334402	neg
 334406	rel
+334414	prs
 334419	neg
 334421	tmp
+334431	prs
 334440	rel
 334443	numeral
 334448	rel
+prs
 334456	numeral
 numeral
 334459	rel
@@ -9517,7 +10954,8 @@ numeral
 334469	rel
 numeral
 334481	rel
-334488	neg
+334487	prs
+neg
 334498	conj
 334503	rel
 334512	neg
@@ -9527,7 +10965,9 @@ numeral
 334529	neg
 334563	neg
 334565	conj
-334568	neg
+334567	prs
+neg
+334574	prs
 334577	conj
 334580	numeral
 334585	rel
