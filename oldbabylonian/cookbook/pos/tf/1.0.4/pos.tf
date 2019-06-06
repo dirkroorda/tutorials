@@ -9,7 +9,7 @@
 @institute=NINO, DANS
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-06-05T20:18:17Z
+@dateWritten=2019-06-06T06:26:26Z
 
 258163	prep
 noun
@@ -434,7 +434,7 @@ prep
 noun
 noun
 noun
-noun
+prn
 pcl
 258943	noun
 258945	pcl
@@ -572,7 +572,7 @@ noun
 259151	pcl
 noun
 noun
-noun
+prn
 259159	noun
 259161	prep
 noun
@@ -620,7 +620,7 @@ noun
 noun
 prep
 noun
-noun
+prn
 259235	noun
 259241	noun
 noun
@@ -649,7 +649,7 @@ noun
 259275	noun
 259277	noun
 noun
-noun
+prn
 259283	noun
 noun
 259286	prep
@@ -708,7 +708,7 @@ noun
 noun
 prep
 noun
-noun
+prn
 prep
 noun
 259399	noun
@@ -719,7 +719,7 @@ noun
 noun
 259408	prep
 noun
-noun
+prn
 prep
 noun
 259414	prep
@@ -731,7 +731,7 @@ noun
 259423	pcl
 noun
 noun
-noun
+prn
 259428	pcl
 noun
 prep
@@ -747,7 +747,7 @@ noun
 259441	noun
 noun
 259447	noun
-noun
+prn
 259451	pcl
 259453	prep
 noun
@@ -803,7 +803,7 @@ prn
 noun
 259529	adv
 noun
-noun
+prn
 prep
 noun
 prep
@@ -1007,7 +1007,7 @@ noun
 noun
 noun
 noun
-noun
+prn
 prep
 noun
 259917	noun
@@ -1022,7 +1022,7 @@ prn
 259935	prep
 noun
 noun
-noun
+prn
 prep
 noun
 259942	adv
@@ -1130,7 +1130,7 @@ pcl
 noun
 pcl
 pcl
-260121	noun
+260121	prn
 prep
 noun
 260125	noun
@@ -1500,7 +1500,7 @@ noun
 noun
 260740	noun
 260742	prep
-noun
+prn
 260746	prep
 noun
 prep
@@ -3109,7 +3109,7 @@ prep
 noun
 263655	noun
 noun
-noun
+prn
 263661	prn
 263663	pcl
 263665	pcl
@@ -3128,7 +3128,7 @@ noun
 263692	prep
 noun
 263695	noun
-noun
+prn
 prep
 noun
 263701	pcl
@@ -3187,7 +3187,7 @@ pcl
 263807	pcl
 263813	noun
 noun
-noun
+prn
 prep
 noun
 263819	prep
@@ -3200,7 +3200,7 @@ noun
 prep
 noun
 noun
-noun
+prn
 prep
 noun
 noun
@@ -3210,7 +3210,7 @@ noun
 noun
 noun
 263841	noun
-noun
+prn
 prep
 noun
 prep
@@ -3257,7 +3257,7 @@ noun
 263916	noun
 263919	pcl
 noun
-noun
+prn
 263924	noun
 noun
 263927	noun
@@ -3267,7 +3267,7 @@ noun
 noun
 263934	prep
 noun
-noun
+prn
 263938	prep
 noun
 pcl
@@ -3302,13 +3302,13 @@ noun
 noun
 noun
 263994	noun
-noun
+prn
 263997	pcl
 noun
 noun
 prep
 noun
-noun
+prn
 264006	prep
 noun
 pcl
@@ -3575,7 +3575,7 @@ pcl
 noun
 264498	noun
 264501	pcl
-noun
+prn
 264508	noun
 264512	noun
 264519	noun
@@ -3640,7 +3640,7 @@ noun
 noun
 noun
 264632	prep
-noun
+prn
 264635	pcl
 prep
 noun
@@ -3678,7 +3678,7 @@ noun
 noun
 noun
 noun
-noun
+prn
 pcl
 noun
 pcl
@@ -3728,7 +3728,7 @@ pcl
 noun
 noun
 noun
-noun
+prn
 264765	prep
 noun
 pcl
@@ -3863,7 +3863,7 @@ noun
 265040	noun
 265043	adv
 noun
-noun
+prn
 prep
 noun
 pcl
@@ -4021,7 +4021,7 @@ noun
 noun
 265347	noun
 noun
-noun
+prn
 265351	prn
 pcl
 265354	prep
@@ -4079,7 +4079,7 @@ noun
 pcl
 noun
 prep
-noun
+prn
 265480	noun
 265482	prep
 noun
@@ -4246,7 +4246,7 @@ noun
 noun
 265738	noun
 noun
-noun
+prn
 265742	noun
 noun
 pcl
@@ -4265,7 +4265,7 @@ noun
 pcl
 noun
 265773	pcl
-noun
+prn
 265777	prn
 noun
 265780	noun
@@ -4721,7 +4721,7 @@ noun
 prep
 noun
 noun
-noun
+prn
 noun
 pcl
 266628	noun
@@ -5051,7 +5051,7 @@ noun
 267274	pcl
 267279	noun
 267283	noun
-267285	noun
+267285	prn
 267287	noun
 noun
 267290	prep
@@ -5285,7 +5285,7 @@ noun
 noun
 267772	adv
 noun
-noun
+prn
 noun
 267777	noun
 pcl
@@ -5597,7 +5597,7 @@ noun
 268367	noun
 pcl
 268370	noun
-noun
+prn
 268381	prep
 noun
 268387	noun
@@ -6237,7 +6237,7 @@ pcl
 noun
 pcl
 269722	pcl
-269726	noun
+269726	prn
 noun
 269729	noun
 noun
@@ -7183,7 +7183,7 @@ noun
 271715	pcl
 prep
 noun
-noun
+prn
 271722	noun
 prn
 271726	pcl
@@ -7329,7 +7329,7 @@ noun
 271956	noun
 noun
 271960	noun
-noun
+prn
 prep
 noun
 271965	prep
@@ -7425,7 +7425,7 @@ noun
 prn
 272121	adv
 noun
-272124	noun
+272124	prn
 prep
 noun
 272128	noun
@@ -7606,7 +7606,7 @@ pcl
 noun
 adv
 noun
-272454	noun
+272454	prn
 272456	prep
 noun
 272461	noun
@@ -7748,7 +7748,7 @@ noun
 noun
 pcl
 noun
-noun
+prn
 prep
 noun
 272682	noun
@@ -8074,10 +8074,10 @@ noun
 noun
 273189	noun
 prep
-noun
+prn
 273193	pcl
 prep
-noun
+prn
 273198	noun
 pcl
 noun
@@ -8359,7 +8359,7 @@ noun
 pcl
 273660	pcl
 273662	noun
-noun
+prn
 273669	noun
 prn
 prep
@@ -8402,7 +8402,7 @@ noun
 273731	noun
 273735	adv
 noun
-noun
+prn
 273740	noun
 noun
 273746	noun
@@ -8630,14 +8630,14 @@ noun
 274170	noun
 prep
 noun
-noun
+prn
 274175	noun
 pcl
 noun
 274181	noun
 274184	noun
 274186	prn
-274190	noun
+274190	prn
 274194	prep
 noun
 274198	noun
@@ -9204,14 +9204,14 @@ noun
 275232	noun
 275234	noun
 noun
-275237	noun
+275237	prn
 275240	prep
 noun
 noun
 275245	noun
 prn
 275248	prep
-noun
+prn
 pcl
 275258	noun
 noun
@@ -9294,7 +9294,7 @@ prep
 noun
 275394	pcl
 275396	prep
-noun
+prn
 275399	noun
 275406	prep
 noun
@@ -9338,7 +9338,7 @@ noun
 pcl
 275486	prn
 noun
-noun
+prn
 275490	prep
 noun
 275496	noun
@@ -9373,7 +9373,7 @@ noun
 noun
 275536	prn
 noun
-275539	noun
+275539	prn
 noun
 prep
 noun
@@ -9865,7 +9865,7 @@ noun
 prep
 noun
 276387	noun
-noun
+prn
 276390	noun
 prn
 276394	noun
@@ -9876,7 +9876,7 @@ noun
 276404	noun
 noun
 276408	noun
-noun
+prn
 276411	noun
 pcl
 276414	noun
@@ -10021,7 +10021,7 @@ pcl
 276690	noun
 noun
 noun
-noun
+prn
 prep
 noun
 pcl
@@ -10170,7 +10170,7 @@ noun
 noun
 pcl
 276957	noun
-noun
+prn
 276960	prep
 noun
 noun
@@ -10306,19 +10306,19 @@ pcl
 noun
 277310	pcl
 277318	noun
-277325	noun
+277325	prn
 277329	prep
 noun
 277332	pcl
 noun
 277336	noun
 noun
-277339	noun
+277339	prn
 277341	noun
 prep
 noun
 277346	pcl
-277349	noun
+277349	prn
 277354	noun
 noun
 277360	noun
@@ -10336,7 +10336,7 @@ noun
 noun
 noun
 noun
-277386	noun
+277386	prn
 277388	prep
 noun
 277391	prep
@@ -10467,7 +10467,7 @@ prep
 noun
 noun
 277752	noun
-noun
+prn
 pcl
 277756	noun
 noun
@@ -10758,7 +10758,7 @@ noun
 prep
 noun
 278241	noun
-278243	noun
+278243	prn
 noun
 278246	noun
 noun
@@ -10916,7 +10916,7 @@ noun
 pcl
 noun
 noun
-noun
+prn
 prep
 noun
 278578	prep
@@ -11048,7 +11048,7 @@ pcl
 prep
 noun
 278841	noun
-noun
+prn
 prep
 noun
 noun
@@ -11179,7 +11179,7 @@ prep
 noun
 279115	noun
 noun
-279136	noun
+279136	prn
 279141	noun
 noun
 279145	noun
@@ -11252,7 +11252,7 @@ noun
 noun
 279316	noun
 noun
-279322	noun
+279322	prn
 279342	prep
 noun
 279346	noun
@@ -11477,7 +11477,7 @@ noun
 noun
 noun
 279758	prep
-noun
+prn
 noun
 pcl
 279767	prep
@@ -11669,7 +11669,7 @@ noun
 noun
 280131	pcl
 280135	noun
-noun
+prn
 noun
 280139	noun
 280143	noun
@@ -12027,7 +12027,7 @@ noun
 noun
 280957	pcl
 prep
-noun
+prn
 noun
 280964	prep
 noun
@@ -12087,7 +12087,7 @@ noun
 281104	noun
 281117	pcl
 281120	prep
-noun
+prn
 pcl
 noun
 281125	noun
@@ -12172,16 +12172,16 @@ noun
 pcl
 prep
 noun
-281307	noun
+281307	prn
 281309	pcl
 281313	pcl
 281324	noun
-noun
+prn
 pcl
 281328	noun
 noun
 noun
-noun
+prn
 prep
 noun
 281335	prep
@@ -12235,7 +12235,7 @@ noun
 noun
 281454	pcl
 noun
-noun
+prn
 281459	prep
 noun
 281463	noun
@@ -12307,7 +12307,7 @@ noun
 noun
 281614	pcl
 noun
-281620	noun
+281620	prn
 prep
 noun
 281625	prn
@@ -12549,7 +12549,7 @@ noun
 282100	noun
 282102	pcl
 pcl
-noun
+prn
 282116	pcl
 282118	prep
 noun
@@ -12761,7 +12761,7 @@ pcl
 282670	pcl
 282672	prep
 noun
-282685	noun
+282685	prn
 282700	noun
 prep
 noun
@@ -12910,7 +12910,7 @@ noun
 noun
 noun
 pcl
-283117	noun
+283117	prn
 283121	prn
 noun
 283125	pcl
@@ -12995,7 +12995,7 @@ noun
 pcl
 283253	noun
 283255	noun
-283257	noun
+283257	prn
 283259	noun
 283263	prep
 noun
@@ -13335,7 +13335,7 @@ noun
 283869	prep
 noun
 noun
-noun
+prn
 noun
 prep
 noun
@@ -13398,7 +13398,7 @@ noun
 noun
 283961	noun
 noun
-noun
+prn
 283965	prep
 noun
 283970	prep
@@ -13571,7 +13571,7 @@ prep
 noun
 noun
 284213	noun
-noun
+prn
 prep
 noun
 pcl
@@ -13598,7 +13598,7 @@ noun
 prep
 noun
 284252	noun
-noun
+prn
 284255	prep
 noun
 pcl
@@ -13705,7 +13705,7 @@ noun
 noun
 284430	prep
 noun
-284434	noun
+284434	prn
 prep
 noun
 284438	pcl
@@ -13759,7 +13759,7 @@ noun
 284526	pcl
 noun
 284530	pcl
-noun
+prn
 pcl
 prn
 284535	noun
@@ -13826,7 +13826,7 @@ pcl
 noun
 noun
 pcl
-284665	noun
+284665	prn
 284668	prep
 noun
 284675	prep
@@ -14131,14 +14131,14 @@ pcl
 285253	noun
 285255	pcl
 285257	prep
-noun
+prn
 285264	pcl
 285267	prep
 noun
 noun
 pcl
 noun
-285273	noun
+285273	prn
 prep
 noun
 285278	pcl
@@ -14178,7 +14178,7 @@ noun
 noun
 noun
 pcl
-285338	noun
+285338	prn
 285340	noun
 adv
 noun
@@ -14235,7 +14235,7 @@ noun
 noun
 285453	pcl
 285459	noun
-285461	noun
+285461	prn
 prep
 pcl
 285467	prep
@@ -14416,7 +14416,7 @@ adv
 noun
 285758	prep
 noun
-noun
+prn
 noun
 pcl
 285765	noun
@@ -14720,7 +14720,7 @@ noun
 noun
 286291	noun
 286293	pcl
-286296	noun
+286296	prn
 prep
 noun
 286303	pcl
@@ -15041,7 +15041,7 @@ pcl
 noun
 286805	prep
 noun
-noun
+prn
 prep
 noun
 noun
@@ -16030,7 +16030,7 @@ noun
 noun
 288385	noun
 noun
-noun
+prn
 pcl
 288390	noun
 adv
@@ -16055,12 +16055,12 @@ noun
 288416	noun
 prn
 288420	noun
-noun
+prn
 prep
 noun
 288425	noun
 288427	noun
-noun
+prn
 288431	prep
 noun
 288434	noun
@@ -16736,7 +16736,7 @@ noun
 noun
 noun
 289619	pcl
-noun
+prn
 289622	pcl
 prep
 noun
@@ -16761,10 +16761,10 @@ noun
 prep
 noun
 noun
-noun
+prn
 289659	noun
 289662	noun
-noun
+prn
 289670	pcl
 noun
 noun
@@ -18309,7 +18309,7 @@ noun
 292380	prn
 prep
 noun
-292387	noun
+292387	prn
 292390	noun
 noun
 292393	prep
@@ -18808,7 +18808,7 @@ noun
 pcl
 293256	pcl
 noun
-293259	noun
+293259	prn
 pcl
 noun
 293265	pcl
@@ -18926,7 +18926,7 @@ pcl
 293474	noun
 noun
 noun
-noun
+prn
 prn
 293482	noun
 prep
@@ -18938,7 +18938,7 @@ pcl
 293491	noun
 noun
 noun
-noun
+prn
 293499	prep
 noun
 293503	prep
@@ -19220,7 +19220,7 @@ prep
 pcl
 293957	pcl
 noun
-293962	noun
+293962	prn
 293965	pcl
 293967	prep
 noun
@@ -19249,7 +19249,7 @@ noun
 noun
 294001	prep
 noun
-294004	noun
+294004	prn
 noun
 prn
 294009	prep
@@ -19277,7 +19277,7 @@ prn
 294044	noun
 prn
 noun
-294050	noun
+294050	prn
 294052	noun
 prep
 pcl
@@ -19456,7 +19456,7 @@ noun
 prep
 noun
 noun
-294408	noun
+294408	prn
 pcl
 294411	noun
 pcl
@@ -19568,7 +19568,7 @@ noun
 294600	pcl
 prep
 noun
-294604	noun
+294604	prn
 294607	noun
 294617	prep
 noun
@@ -20156,7 +20156,7 @@ noun
 prep
 noun
 295792	pcl
-noun
+prn
 295795	noun
 noun
 noun
@@ -20320,10 +20320,10 @@ noun
 noun
 pcl
 296183	noun
-noun
+prn
 296186	noun
 296191	noun
-noun
+prn
 296195	pcl
 296197	pcl
 noun
@@ -20353,7 +20353,7 @@ noun
 noun
 296238	noun
 296240	noun
-noun
+prn
 prep
 noun
 296245	prep
@@ -20544,7 +20544,7 @@ noun
 296613	prep
 noun
 296616	pcl
-noun
+prn
 noun
 noun
 noun
@@ -20792,7 +20792,7 @@ prep
 noun
 pcl
 297121	prep
-noun
+prn
 297124	prep
 noun
 pcl
@@ -20875,7 +20875,7 @@ noun
 297276	pcl
 prep
 noun
-noun
+prn
 297283	noun
 pcl
 297287	pcl
@@ -21165,7 +21165,7 @@ noun
 297894	pcl
 prn
 297898	noun
-noun
+prn
 297903	prep
 noun
 prep
@@ -21686,7 +21686,7 @@ noun
 298868	noun
 noun
 298871	noun
-noun
+prn
 298875	pcl
 298877	pcl
 298879	prep
@@ -22199,7 +22199,7 @@ noun
 pcl
 noun
 299714	noun
-noun
+prn
 299717	noun
 noun
 pcl
@@ -22494,7 +22494,7 @@ noun
 noun
 300182	pcl
 prep
-noun
+prn
 300187	noun
 noun
 noun
@@ -22522,7 +22522,7 @@ noun
 300230	pcl
 300233	prep
 noun
-noun
+prn
 300240	prn
 prep
 noun
@@ -22557,7 +22557,7 @@ prep
 noun
 300315	noun
 300317	prep
-noun
+prn
 300321	prn
 prep
 noun
@@ -22567,7 +22567,7 @@ noun
 noun
 pcl
 300337	prep
-noun
+prn
 noun
 noun
 noun
@@ -22581,7 +22581,7 @@ prn
 300373	noun
 300380	pcl
 300385	prep
-noun
+prn
 prep
 prep
 noun
@@ -22592,7 +22592,7 @@ pcl
 noun
 300404	noun
 300406	prep
-noun
+prn
 300420	pcl
 300422	pcl
 300430	noun
@@ -23039,7 +23039,7 @@ noun
 noun
 prep
 noun
-301269	noun
+301269	prn
 301272	prep
 noun
 301275	prep
@@ -24024,7 +24024,7 @@ noun
 noun
 noun
 303130	noun
-noun
+prn
 303137	prn
 pcl
 noun
@@ -24044,7 +24044,7 @@ noun
 noun
 303202	noun
 noun
-303209	noun
+303209	prn
 303212	prep
 noun
 303215	noun
@@ -24111,7 +24111,7 @@ noun
 noun
 303326	pcl
 303330	pcl
-303334	noun
+303334	prn
 303336	pcl
 303339	noun
 303342	prep
@@ -24198,14 +24198,14 @@ prep
 noun
 303474	noun
 noun
-noun
+prn
 prep
 noun
 303480	noun
 noun
 303483	adv
 noun
-noun
+prn
 prep
 noun
 303489	noun
@@ -24319,7 +24319,7 @@ prep
 pcl
 noun
 303672	noun
-noun
+prn
 pcl
 303676	prep
 noun
@@ -24347,7 +24347,7 @@ pcl
 noun
 303702	prep
 noun
-noun
+prn
 303707	pcl
 303710	prep
 noun
@@ -24433,7 +24433,7 @@ noun
 noun
 noun
 noun
-noun
+prn
 noun
 pcl
 303865	pcl
@@ -24523,7 +24523,7 @@ noun
 prn
 304012	adv
 noun
-noun
+prn
 noun
 noun
 pcl
@@ -24573,7 +24573,7 @@ noun
 pcl
 304090	adv
 noun
-noun
+prn
 prep
 noun
 304097	noun
@@ -24761,7 +24761,7 @@ noun
 304363	adv
 noun
 noun
-noun
+prn
 prep
 noun
 304373	noun
@@ -24940,7 +24940,7 @@ noun
 304659	noun
 noun
 noun
-noun
+prn
 noun
 noun
 304666	noun
@@ -24960,7 +24960,7 @@ pcl
 304684	prep
 noun
 noun
-noun
+prn
 noun
 noun
 304692	noun
@@ -25401,7 +25401,7 @@ noun
 noun
 pcl
 noun
-noun
+prn
 pcl
 prep
 noun
@@ -25678,11 +25678,11 @@ noun
 noun
 305794	pcl
 noun
-noun
+prn
 prep
 noun
 305800	noun
-noun
+prn
 prep
 noun
 305808	noun
@@ -25718,7 +25718,7 @@ prep
 noun
 pcl
 305869	noun
-noun
+prn
 prep
 noun
 prep
@@ -25983,7 +25983,7 @@ noun
 306270	prep
 noun
 306273	noun
-noun
+prn
 prep
 noun
 306278	prep
@@ -26173,9 +26173,9 @@ noun
 prep
 noun
 prep
-noun
+prn
 306598	noun
-noun
+prn
 prep
 noun
 306603	prep
@@ -26775,7 +26775,7 @@ noun
 307625	prep
 noun
 noun
-noun
+prn
 pcl
 noun
 307632	noun
@@ -26867,16 +26867,16 @@ noun
 prep
 noun
 noun
-noun
+prn
 307769	prep
 noun
 307772	noun
-307783	noun
+307783	prn
 307786	noun
 307789	noun
 307797	noun
 noun
-noun
+prn
 307801	prep
 noun
 noun
@@ -26948,7 +26948,7 @@ noun
 noun
 307927	pcl
 307930	noun
-noun
+prn
 307934	noun
 pcl
 noun
@@ -26966,7 +26966,7 @@ noun
 noun
 prep
 noun
-noun
+prn
 noun
 307956	prep
 noun
@@ -26977,7 +26977,7 @@ noun
 noun
 307965	pcl
 307967	noun
-noun
+prn
 307973	noun
 noun
 noun
@@ -27012,10 +27012,10 @@ noun
 308032	noun
 noun
 308040	noun
-noun
+prn
 308043	pcl
 308045	noun
-noun
+prn
 noun
 prep
 noun
@@ -27181,11 +27181,11 @@ noun
 noun
 308336	adv
 noun
-noun
+prn
 prep
 noun
 308343	noun
-noun
+prn
 308348	noun
 308352	prep
 noun
@@ -27350,7 +27350,7 @@ noun
 noun
 308582	prep
 noun
-noun
+prn
 noun
 noun
 noun
@@ -27509,7 +27509,7 @@ prn
 noun
 noun
 308866	noun
-noun
+prn
 prep
 noun
 308873	prep
@@ -28050,7 +28050,7 @@ noun
 309970	noun
 prep
 noun
-noun
+prn
 309975	noun
 prep
 noun
@@ -28062,7 +28062,7 @@ noun
 noun
 prn
 pcl
-noun
+prn
 noun
 prep
 noun
@@ -28179,7 +28179,7 @@ pcl
 310167	noun
 noun
 noun
-310171	noun
+310171	prn
 310175	prn
 noun
 310179	prep
@@ -28863,7 +28863,7 @@ pcl
 311480	prep
 noun
 311485	noun
-noun
+prn
 noun
 311489	prep
 noun
@@ -28939,7 +28939,7 @@ noun
 prep
 noun
 noun
-noun
+prn
 pcl
 311610	noun
 noun
@@ -29112,7 +29112,7 @@ noun
 311833	noun
 311836	prep
 noun
-noun
+prn
 noun
 noun
 noun
@@ -29308,12 +29308,12 @@ noun
 312150	noun
 312153	noun
 312155	noun
-noun
+prn
 prep
 noun
 312161	noun
 noun
-noun
+prn
 312168	prep
 noun
 312173	noun
@@ -29367,7 +29367,7 @@ noun
 312257	noun
 312260	prep
 noun
-noun
+prn
 312264	pcl
 noun
 312267	noun
@@ -29405,7 +29405,7 @@ pcl
 noun
 noun
 noun
-noun
+prn
 prep
 noun
 312330	prep
@@ -29430,7 +29430,7 @@ noun
 noun
 noun
 noun
-noun
+prn
 pcl
 312367	prep
 noun
@@ -29438,7 +29438,7 @@ noun
 312371	noun
 pcl
 312375	noun
-noun
+prn
 prep
 noun
 noun
@@ -29452,7 +29452,7 @@ noun
 noun
 312395	noun
 312398	noun
-noun
+prn
 prep
 noun
 noun
@@ -29519,7 +29519,7 @@ noun
 pcl
 noun
 312506	noun
-312510	noun
+312510	prn
 312512	pcl
 noun
 noun
@@ -30625,17 +30625,17 @@ noun
 noun
 pcl
 prep
-noun
+prn
 314365	prep
 noun
 314368	pcl
 prep
 noun
 314372	prep
-noun
+prn
 pcl
 314377	prep
-noun
+prn
 314381	noun
 314383	pcl
 314385	pcl
@@ -31203,7 +31203,7 @@ noun
 315333	prep
 noun
 noun
-noun
+prn
 pcl
 315339	noun
 315343	pcl
@@ -31216,7 +31216,7 @@ pcl
 315360	noun
 noun
 noun
-noun
+prn
 pcl
 315366	pcl
 315371	prep
@@ -31225,7 +31225,7 @@ noun
 315376	noun
 pcl
 315379	noun
-noun
+prn
 prep
 noun
 315384	pcl
@@ -31245,7 +31245,7 @@ pcl
 prep
 noun
 315411	noun
-noun
+prn
 315417	prn
 315419	prep
 noun
@@ -31258,14 +31258,14 @@ noun
 315429	pcl
 prep
 noun
-noun
+prn
 noun
 noun
 315436	pcl
 315438	noun
 315440	prep
 noun
-noun
+prn
 315446	pcl
 315450	pcl
 315455	prep
@@ -31280,7 +31280,7 @@ noun
 pcl
 noun
 315476	noun
-noun
+prn
 315481	noun
 prep
 noun
@@ -31721,7 +31721,7 @@ prep
 noun
 316244	pcl
 316246	noun
-noun
+prn
 316249	noun
 noun
 noun
@@ -31783,7 +31783,7 @@ noun
 316339	prep
 noun
 noun
-noun
+prn
 316344	noun
 noun
 noun
@@ -31972,7 +31972,7 @@ noun
 316662	noun
 prn
 noun
-316667	noun
+316667	prn
 316669	prep
 pcl
 316672	pcl
@@ -32006,7 +32006,7 @@ noun
 noun
 316717	noun
 noun
-noun
+prn
 316722	prep
 noun
 noun
@@ -32029,7 +32029,7 @@ noun
 adv
 noun
 noun
-noun
+prn
 316760	prep
 noun
 noun
@@ -32047,7 +32047,7 @@ noun
 pcl
 noun
 316781	noun
-noun
+prn
 316784	prep
 noun
 noun
@@ -32062,7 +32062,7 @@ noun
 noun
 316802	pcl
 316805	noun
-noun
+prn
 316808	pcl
 316813	noun
 prn
@@ -32327,7 +32327,7 @@ noun
 317237	pcl
 317239	prep
 noun
-317243	noun
+317243	prn
 317245	noun
 noun
 pcl
@@ -32567,7 +32567,7 @@ noun
 noun
 317639	noun
 317641	noun
-317646	noun
+317646	prn
 pcl
 317649	prep
 noun
@@ -32611,7 +32611,7 @@ noun
 317711	noun
 noun
 317714	noun
-noun
+prn
 prep
 noun
 noun
@@ -32639,7 +32639,7 @@ noun
 317753	noun
 noun
 317756	noun
-noun
+prn
 prep
 noun
 317761	prep
@@ -33416,7 +33416,7 @@ pcl
 noun
 319137	prep
 noun
-noun
+prn
 319145	noun
 319147	prep
 noun
@@ -33450,7 +33450,7 @@ pcl
 noun
 noun
 noun
-noun
+prn
 319199	prep
 noun
 pcl
@@ -33653,7 +33653,7 @@ noun
 noun
 319573	prep
 noun
-319583	noun
+319583	prn
 319590	noun
 319595	prep
 noun
@@ -33841,7 +33841,7 @@ noun
 noun
 noun
 320012	pcl
-320014	noun
+320014	prn
 320016	noun
 pcl
 noun
@@ -34119,7 +34119,7 @@ noun
 320585	noun
 noun
 noun
-noun
+prn
 prep
 noun
 noun
@@ -34697,7 +34697,7 @@ noun
 321669	noun
 pcl
 noun
-noun
+prn
 321676	noun
 noun
 321679	pcl
@@ -34895,12 +34895,12 @@ prep
 noun
 noun
 noun
-noun
+prn
 322037	noun
 noun
 pcl
 322046	noun
-noun
+prn
 322058	adv
 322063	pcl
 noun
@@ -35048,7 +35048,7 @@ prep
 noun
 322320	pcl
 noun
-noun
+prn
 noun
 322325	pcl
 noun
@@ -35202,13 +35202,13 @@ noun
 322611	noun
 noun
 322618	noun
-noun
+prn
 noun
 322627	noun
 noun
 pcl
 322631	noun
-noun
+prn
 noun
 322635	prep
 noun
@@ -36076,7 +36076,7 @@ noun
 324131	noun
 324133	noun
 324135	noun
-324141	noun
+324141	prn
 pcl
 noun
 noun
@@ -36120,7 +36120,7 @@ noun
 prep
 noun
 324200	pcl
-324203	noun
+324203	prn
 324205	noun
 noun
 noun
@@ -36170,7 +36170,7 @@ noun
 noun
 324285	noun
 324288	pcl
-324292	noun
+324292	prn
 pcl
 324299	prep
 noun
@@ -36838,13 +36838,13 @@ noun
 325578	noun
 325582	noun
 noun
-noun
+prn
 325593	noun
 prn
 325596	noun
 noun
 noun
-noun
+prn
 325604	noun
 325606	noun
 325612	prep
@@ -37024,11 +37024,11 @@ noun
 noun
 325976	prep
 noun
-noun
+prn
 325981	noun
 noun
 noun
-noun
+prn
 prep
 noun
 325988	pcl
@@ -37122,7 +37122,7 @@ noun
 326169	prn
 326171	pcl
 326173	noun
-326175	noun
+326175	prn
 prep
 noun
 326182	pcl
@@ -37361,7 +37361,7 @@ pcl
 noun
 noun
 noun
-noun
+prn
 pcl
 noun
 noun
@@ -37410,7 +37410,7 @@ prep
 noun
 noun
 326691	noun
-326693	noun
+326693	prn
 326695	noun
 prep
 noun
@@ -37700,7 +37700,7 @@ noun
 327353	noun
 327355	prep
 noun
-noun
+prn
 327359	pcl
 prep
 noun
@@ -37992,7 +37992,7 @@ pcl
 327889	noun
 327895	pcl
 327901	noun
-327914	noun
+327914	prn
 prep
 noun
 noun
@@ -38015,7 +38015,7 @@ pcl
 noun
 noun
 noun
-327946	noun
+327946	prn
 prep
 noun
 327951	noun
@@ -38231,7 +38231,7 @@ noun
 noun
 328429	noun
 328432	noun
-noun
+prn
 328435	prep
 noun
 328441	prep
@@ -38681,11 +38681,11 @@ noun
 noun
 329398	prep
 noun
-noun
+prn
 pcl
 329403	noun
 noun
-noun
+prn
 329407	pcl
 noun
 329410	noun
@@ -38822,7 +38822,7 @@ noun
 329635	noun
 329637	pcl
 329639	noun
-noun
+prn
 prep
 noun
 329644	prep
@@ -39082,7 +39082,7 @@ noun
 330133	noun
 noun
 pcl
-330138	noun
+330138	prn
 330142	noun
 330145	prep
 noun
@@ -39101,7 +39101,7 @@ noun
 noun
 330169	prn
 pcl
-noun
+prn
 330175	prep
 noun
 prep
@@ -39897,7 +39897,7 @@ pcl
 331621	prep
 noun
 331624	noun
-noun
+prn
 prep
 noun
 331630	noun
@@ -40046,7 +40046,7 @@ prep
 noun
 noun
 331883	pcl
-noun
+prn
 331886	prep
 noun
 331889	prep
@@ -40795,7 +40795,7 @@ noun
 333166	prn
 333169	prep
 noun
-noun
+prn
 333174	pcl
 333176	prep
 noun
@@ -40855,7 +40855,7 @@ noun
 333269	prep
 noun
 noun
-333273	noun
+333273	prn
 333276	prep
 noun
 333281	noun
@@ -40885,7 +40885,7 @@ noun
 noun
 noun
 noun
-333323	noun
+333323	prn
 prep
 noun
 prep
@@ -40967,7 +40967,7 @@ noun
 333464	prep
 noun
 noun
-noun
+prn
 noun
 333470	noun
 prep
@@ -41047,7 +41047,7 @@ noun
 noun
 prn
 prep
-noun
+prn
 333609	prep
 noun
 333615	noun

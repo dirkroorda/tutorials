@@ -129,7 +129,7 @@ class PosTag(object):
 
     md = f'''
 kind of word | distinct forms | number of occurrences
---- | --- | ---
+--- | ---:| ---:
 all | {len(wordsOccs)} | {getNoccs(wordsOccs)}
 with unknown sign | {len(wordsUnknown)} | {self.getWoccs(wordsUnknown)}
 unknown numeral | {len(wordsNumeralUnknown)} | {self.getWoccs(wordsNumeralUnknown)}
@@ -141,7 +141,7 @@ with det cut away | {len(wordsStrippedDet)} | {getNoccs(wordsStrippedDet)}
     dm(md)
 
   def initFeatures(self, *feats):
-    return {feat: self.nodeFeatures[feat] for feat in feats}
+    return {feat: {} for feat in feats}
 
   def addFeatures(self, theseFeats):
     nodeFeatures = self.nodeFeatures
@@ -173,20 +173,21 @@ with det cut away | {len(wordsStrippedDet)} | {getNoccs(wordsStrippedDet)}
           sets[cat].add(w)
 
     print(f'    distinct words: {len(done):>6}')
-    print(f'   pos assignments: {len(pos):>6}')
-    print(f'subpos assignments: {len(subpos):>6}')
+    for (f, data) in sorted(theseFeats.items()):
+      print(f'{f:>6} assignments: {len(data):>6}')
 
     self.addFeatures(theseFeats)
 
   def doPrnPrs(self, prnPrsStr):
     wordFromSigns = self.wordFromSigns
     sets = self.sets
+    done = self.done
 
     api = self.api
     F = api.F
     L = api.L
     T = api.T
-    warning = api.warning
+    error = api.error
 
     api.setSilent(False)
 
@@ -200,14 +201,18 @@ with det cut away | {len(wordsStrippedDet)} | {getNoccs(wordsStrippedDet)}
         for frm in forms:
           if type(frm) is dict:
             for (f, occs) in frm.items():
+              if f == '/':
+                continue
               for occ in occs:
                 (doc, faceLine) = occ.split(maxsplit=1)
                 (face, line) = faceLine.split(':', maxsplit=1)
                 ln = T.nodeFromSection((doc, face, line))
                 if ln is None:
-                  warning(f'Unknown section: {occ}')
+                  error(f'Unknown section: {occ}')
                 exceptions[ln][f] = (case, tag)
           else:
+            if frm == '/':
+              continue
             regular[frm] = (case, tag)
 
     # collect the occurrences
@@ -229,15 +234,19 @@ with det cut away | {len(wordsStrippedDet)} | {getNoccs(wordsStrippedDet)}
     cs = theseFeats['cs']
 
     pronouns = set()
+    exceptionHits = collections.defaultdict(collections.Counter)
+    regularHits = collections.Counter()
 
     for ln in F.otype.s('line'):
       lineExceptions = exceptions[ln] if ln in exceptions else None
       for w in L.d(ln, otype='word'):
         word = wordFromSigns.get(w, None)
-        if word is None:
+        if word is None or word in done:
           continue
-        case = None
-        tag = None
+        if lineExceptions and word in lineExceptions:
+          exceptionHits[ln][word] += 1
+        elif word in regular:
+          regularHits[word] += 1
         result = (
             lineExceptions.get(word, regular.get(word, None))
             if lineExceptions else
@@ -253,9 +262,38 @@ with det cut away | {len(wordsStrippedDet)} | {getNoccs(wordsStrippedDet)}
             theseFeats[k][w] = v
           sets['prnprs'].add(w)
 
+    nRegDeclared = len(regular)
+    nRegHit = len(regularHits)
+    eDiff = nRegDeclared - nRegHit
+    if eDiff:
+      error(f'{nRegDeclared} forms declared, but {nRegHit} ones encountered:')
+
+    for (word, info) in regular.items():
+      hits = regularHits[word]
+      if not hits:
+        infoRep = ', '.join(info)
+        error(f'missed {word:<20} =>  {infoRep}')
+
+    nExcDeclared = sum(len(y) for y in exceptions.values())
+    nExcHit = sum(len(y) for y in exceptionHits.values())
+    eDiff = nExcDeclared - nExcHit
+    if eDiff:
+      error(f'{nExcDeclared} exceptions declared, but {nExcHit} ones encountered:')
+
+    for (ln, words) in sorted(exceptions.items()):
+      for (word, info) in words.items():
+        hits = exceptionHits.get(ln, {}).get(word, 0)
+        if not hits:
+          infoRep = ', '.join(info)
+          line = '{:<7} {:>5}:{:<3}'.format(*T.sectionFromNode(ln))
+          error(f'missed exception {word:<20} in line {line} =>  {infoRep}')
+
+    for word in pronouns:
+      done.add(word)
+
     print(f'    distinct words: {len(pronouns):>6}')
-    print(f'   pos assignments: {len(pos):>6}')
-    print(f'subpos assignments: {len(subpos):>6}')
+    for (f, data) in sorted(theseFeats.items()):
+      print(f'{f:>6} assignments: {len(data):>6}')
 
     self.addFeatures(theseFeats)
 
@@ -275,6 +313,8 @@ with det cut away | {len(wordsStrippedDet)} | {getNoccs(wordsStrippedDet)}
     nPreps = 0
     nOccs = 0
     for (word, occs) in wordsOccs.items():
+      if word in done:
+        continue
       if word in preps:
         nPreps += 1
         nOccs += len(occs)
@@ -285,9 +325,10 @@ with det cut away | {len(wordsStrippedDet)} | {getNoccs(wordsStrippedDet)}
     sets['nonprep'] = set(F.otype.s('word')) - sets[cat]
     self.preps = preps
 
-    print(f' distinct words: {nPreps:>6}')
-    print(f'pos assignments: {nOccs:>6}')
-    print(f'  non-prep occs: {len(sets["nonprep"]):>6}')
+    print(f'    distinct words: {nPreps:>6}')
+    for (f, data) in sorted(theseFeats.items()):
+      print(f'{f:>6} assignments: {len(data):>6}')
+    print(f'     non-prep occs: {len(sets["nonprep"]):>6}')
 
     self.addFeatures(theseFeats)
 
@@ -425,6 +466,11 @@ word
 
     gather()
 
+    # mark as done
+
+    for word in nouns['']:
+      done.add(word)
+
     # deliver to sets
 
     for (name, data) in sorted(nouns.items()):
@@ -445,11 +491,16 @@ word
         for n in occs:
           subpos[n] = 'numeral'
 
+    for (f, data) in sorted(theseFeats.items()):
+      print(f'{f:>6} assignments: {len(data):>6}')
+
     self.addFeatures(theseFeats)
 
   def export(self, metaData):
     sets = self.sets
     nodeFeatures = self.nodeFeatures
+    wordsOccs = self.wordsOccs
+    total = sum(len(x) for x in wordsOccs.values())
 
     A = self.A
     api = self.api
@@ -476,7 +527,6 @@ word
       cat = f'{ps}-{sp}'
       cats[cat] += 1
 
-    total = sum(cats.values())
     uncategorized = cats['-']
     categorized = total - uncategorized
     catPerc = int(round(100 * categorized / total))
@@ -492,10 +542,12 @@ word
 
 {stst}{nFeats} TF features saved: {featRep}**.
 
+### Catgories (pos, subpos)
+
 {nCats} categories.
 
 category | % | number of nodes
---- | --- | ---
+--- | ---:| ---:
 none | {uncatPerc} | {uncategorized}
 all | {catPerc} | {categorized}
 '''
@@ -507,7 +559,18 @@ all | {catPerc} | {categorized}
         continue
       perc = int(round(100 * n / total))
       md += f'{cat} | {perc} | {n}\n'
+    dm(md)
 
+    md = f'''
+### All features
+
+feature | % | number of nodes
+--- | ---:| ---:
+'''
+    for feat in sorted(nodeFeatures):
+      n = len(nodeFeatures[feat])
+      perc = int(round(100 * n / total))
+      md += f'{feat} | {perc} | {n}\n'
     dm(md)
 
     for loc in [HERE_BASE, DROPBOX_BASE]:
@@ -522,7 +585,7 @@ all | {catPerc} | {categorized}
 {stst}{len(sets)} sets written to disk (GitHub repo and Dropbox)**.
 
 set | number of nodes
---- | ---
+--- | ---:
 '''
     for (name, nodes) in sorted(sets.items()):
       md += f'{name} | {len(nodes)}\n'
