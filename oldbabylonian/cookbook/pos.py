@@ -187,13 +187,14 @@ with det cut away | {len(wordsStrippedDet)} | {getNoccs(wordsStrippedDet)}
     F = api.F
     L = api.L
     T = api.T
-    error = api.error
+    error = self.api.TF.error
+    setSilent = self.api.TF.setSilent
 
-    api.setSilent(False)
+    setSilent(False)
 
     # collect the forms in handy dicts
 
-    prnPrsForms = yaml.load(prnPrsStr)
+    prnPrsForms = yaml.load(prnPrsStr, Loader=yaml.FullLoader)
     exceptions = collections.defaultdict(dict)
     regular = {}
     for (case, tags) in prnPrsForms.items():
