@@ -1,4 +1,4 @@
-apiVersion: 3
+apiVersion: 2
 docs:
   docBase: '{docRoot}/{org}/{repo}/blob/master/programs'
   docExt: .ipynb
