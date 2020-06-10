@@ -1,7 +1,7 @@
 from itertools import chain
 
 from tf.app import use
-from tf.applib.helpers import dm
+from tf.advanced.helpers import dm
 from tf.core.helpers import console
 
 
