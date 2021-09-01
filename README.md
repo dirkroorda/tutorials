@@ -6,4 +6,4 @@
 
 Collection of tutorials of all TF apps
 
-See [Text-Fabric Corpora](https://annotation.github.io/text-fabric/About/Corpora/).
+See [Text-Fabric Corpora](https://annotation.github.io/text-fabric/tf/about/corpora.html).
