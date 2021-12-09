@@ -401,4 +401,5 @@ A[P].show(resultsP, end=20)
 
 # Here ends the bootcamp session.
 #
-# Interested? Send [me](mailto:dirk.roorda@dans.knaw.nl) a note.
+# Interested? Send [me](mailto:text.annotation@icloud.com) a note.
+# Dirk Roorda
